@@ -1,6 +1,8 @@
-import Form from "../Form/Form";
+// import Form from "../Form/Form";
 import styles from "./Contacts.module.scss";
 import { FaFacebook, FaInstagramSquare, FaTelegram } from "react-icons/fa";
+import { IoLogoYoutube } from "react-icons/io";
+import { BsTelegram } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
 
 const Contacts = () => {
@@ -39,11 +41,17 @@ const Contacts = () => {
                   <FaInstagramSquare className={styles.instagram} />
                 </a>
                 <a href="https://t.me/dreamiren777" target="blank">
-                  <FaTelegram className={styles.telegram} />
+                  <BsTelegram className={styles.telegram} />
+                </a>
+                <a
+                  href="https://youtube.com/@japanesewithiryna?si=TV6f8OoN6ILOLXG-"
+                  target="blank"
+                >
+                  <IoLogoYoutube className={styles.youtube} />
                 </a>
               </div>
             </div>
-            <Form />
+            {/* <Form /> */}
           </div>
         </div>
       </div>

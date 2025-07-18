@@ -18,7 +18,7 @@
       justify-content: center;
       text-align: justify;
       .image {
-        width: 200px;
+        width: 400px;
       }
       figcaption {
         padding: 0 20px;
@@ -32,17 +32,22 @@
       &:nth-child(2) {
         flex-direction: row-reverse;
         margin-top: 20px;
+        background-color: $Submit;
+        padding-bottom: 20px;
+        
       }
+      
+      
     }
-    .documents {
-      display: flex;
-      justify-content: space-around;
-      padding: 50px 0;
 
-      img {
-        height: 400px;
-      }
+
+    .video {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     padding: 30px 0;
     }
+
   }
 }
 
@@ -51,11 +56,15 @@
   .about_me {
     .container {
       width: 100%;
+      div {
+        width: 100%;
       figure {
         flex-direction: column;
         align-items: center;
+        // width: 70%;
 
         .image {
+          width: 50%;
           margin-bottom: 20px;
         }
 
@@ -65,13 +74,10 @@
         }
       }
 
-      .documents {
-        img {
-          width: 80%;
-          max-height: 500px;
-          padding: 10px 30px;
-        }
+      .video {
+        width: 50%;
       }
+    }
     }
   }
 }

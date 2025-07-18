@@ -36,29 +36,33 @@ const Services = () => {
     <section id="services" className={styles.services}>
       <div className={styles.container}>
         <h2>{t("menuService")}</h2>
-        <p className={styles.text}>{t("serviceText")}</p>
+        {/* <p className={styles.text}>{t("serviceText")}</p> */}
         <div className={styles.card_container}>
           <Card
-            title={t("writtenTranslation")}
+            title={t("card1")}
             price={t("fromWrittenTranslation")}
             menuItems={translateArray(rewiewsName.service1)}
+            link="/IndividualJapanese"
           />
           <Card
-            title={t("oral")}
+            title={t("card2")}
             subtitle={t("online")}
             price={t("fromOralOnline")}
             menuItems={translateArray(rewiewsName.service2)}
+            link="/GroupJapanese"
           />
           <Card
-            title={t("oral")}
+            title={t("card3")}
             subtitle={t("spot")}
             price={t("fromOralSpot")}
             menuItems={translateArray(rewiewsName.service3)}
+            link="/BusinessSupport"
           />
           <Card
-            title={t("videoTranslation")}
+            title={t("card4")}
             price={t("fromVideoTranslation")}
             menuItems={translateArray(rewiewsName.service4)}
+            link="/Translation"
           />
         </div>
       </div>

@@ -11,6 +11,10 @@
     flex-direction: column;
     box-shadow: 0px 4px 15px -2px $Grey;
 
+    h2 {
+      margin: $PaddingMobile;
+    }
+
     .content {
       display: flex;
       justify-content: center;

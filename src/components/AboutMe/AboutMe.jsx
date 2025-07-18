@@ -17,7 +17,7 @@ const AboutMe = () => {
 
           <div className={styles.images_container}>
             <figure>
-              <img className={styles.image} src={irina2} alt="my" />
+              <img className={styles.image} src={irina3} alt="my" />
               <Trans i18nKey={"aboutMe"}>
                 <figcaption>
                   はじめまして、イリーナ・デルガチョワと申します。2014
@@ -40,7 +40,7 @@ const AboutMe = () => {
             </figure>
 
             <figure>
-              <img className={styles.image} src={irina3} alt="my" />
+              {/* <img className={styles.image} src={irina3} alt="my" /> */}
               <Trans i18nKey={"aboutMe2"}>
                 <figcaption>
                   <p>
@@ -61,12 +61,18 @@ const AboutMe = () => {
                 </figcaption>
               </Trans>
             </figure>
-
-            <figure className={styles.documents}>
-              <img src={document1} alt="certificate" />
-              <img src={document2} alt="diploma" />
-              <img src={document3} alt="diploma" />
-            </figure>
+            <div className={styles.video}>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/WsWHPAazJX8?si=XBnzTStyNianBI3y"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
           </div>
         </div>
       </section>

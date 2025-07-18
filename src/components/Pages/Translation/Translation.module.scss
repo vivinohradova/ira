@@ -1,0 +1,152 @@
+@import "../../../assets/scss/Colors.module.scss";
+@import "../../../assets/scss/Fonts.module.scss";
+@import "../../../assets/scss/Mixin.module.scss";
+
+.page {
+  .interpretation {
+    background: url(../../../assets/images/knigi.jpg) no-repeat center center;
+    background-size: cover;
+    .container {
+      @include container;
+      background-color: rgba(0, 0, 0, 0.5);
+      min-height: 100vh;
+      color: $MainColor;
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        padding: 0 0 50px 0;
+      }
+
+      .text {
+        font-size: $fz20;
+        padding-bottom: 3%;
+        color: $Background;
+        text-align: center;
+      }
+
+      ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 3%;
+
+        li {
+          display: flex;
+          align-items: center;
+          font-size: $fz20;
+          width: 50%;
+          padding: 5px 0;
+
+          .icon {
+            min-width: 60px;
+            min-height: 60px;
+            font-size: $fz46;
+            border: 4px solid $MainColor;
+            border-radius: 50%;
+            color: $MainColor;
+            margin: 4%;
+          }
+          div {
+            display: flex;
+            flex-direction: column;
+
+            h3 {
+              font-size: $fz28;
+            }
+            p {
+              font-size: $fz20;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .translation {
+    background: $BackgroundOpacity;
+    .container {
+      @include container;
+      //    background-color: rgba(0, 0, 0, 0.5);
+      height: 100vh;
+      color: $MainColor;
+      display: flex;
+      flex-direction: column;
+
+      .text {
+        font-size: $fz20;
+        padding-bottom: 3%;
+        color: $HoverColor;
+        text-align: center;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 3%;
+
+        li {
+          display: flex;
+          align-items: center;
+          font-size: $fz20;
+          width: 50%;
+          padding: 5px 0;
+
+          .icon {
+            min-width: 60px;
+            min-height: 60px;
+            font-size: $fz46;
+            border: 4px solid $MainColor;
+            border-radius: 50%;
+            color: $MainColor;
+            margin: 4%;
+          }
+        }
+      }
+    }
+  }
+
+  .communicating {
+    background: url(../../../assets/images/back.jpg) no-repeat center center;
+    background-size: cover;
+    .container {
+      @include container;
+      background-color: rgba(0, 0, 0, 0.2);
+      height: 100vh;
+
+      .title {
+        color: $HoverColor;
+      }
+      
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          max-width: 400px;
+          font-size: $fz30;
+          padding: 0 6%;
+          color: $Background;
+        }
+
+        img {
+          max-width: 400px;
+          min-width: 100px;
+        }
+      }
+    }
+  }
+
+  .call {
+    background: $SubmitHover;
+
+    .container {
+      @include container;
+
+      h2 {
+        color: $BackgroundCard;
+      }
+    }
+  }
+}

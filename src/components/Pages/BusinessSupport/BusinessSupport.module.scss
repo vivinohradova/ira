@@ -1,0 +1,117 @@
+@import "../../../assets/scss/Colors.module.scss";
+@import "../../../assets/scss/Fonts.module.scss";
+@import "../../../assets/scss/Mixin.module.scss";
+
+.page {
+  .headline {
+    background-color: $BackgroundOpacity;
+    .container {
+      @include container;
+      height: 100vh;
+      color: $MainColor;
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        font-size: $fz46;
+        text-align: center;
+      }
+
+      p {
+        font-size: $fz24;
+        text-align: center;
+        margin: 20px 0;
+        color: $SubmitHover;
+      }
+
+      img {
+        max-width: 300px;
+      }
+    }
+  }
+
+  .receive {
+    .container {
+      @include container;
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+
+        li {
+          display: flex;
+          align-items: center;
+          font-size: $fz20;
+
+          .icon {
+            min-width: 60px;
+            min-height: 60px;
+            font-size: $fz46;
+            border: 4px solid $MainColor;
+            border-radius: 50%;
+            color: $MainColor;
+            margin: 4%;
+          }
+        }
+      }
+
+      .summari {
+        display: flex;
+        padding: 3% 0;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        img {
+          max-width: 400px;
+          min-width: 100px;
+        }
+        p {
+          max-width: 60%;
+          font-size: $fz24;
+        }
+      }
+    }
+  }
+
+  .team {
+    background: $BackgroundOpacity;
+
+    .container {
+      @include container;
+    }
+
+    .wrappCorporate {
+      display: flex;
+      align-items: center;
+
+      img {
+        max-width: 400px;
+        min-width: 100px;
+      }
+
+      p {
+        font-size: $fz24;
+        padding-left: 3%;
+      }
+    }
+
+    .button {
+      margin: 3% 0;
+    }
+  }
+  .call {
+    background: $SubmitHover;
+
+    .container{
+       @include container;
+
+      h2{
+      color: $BackgroundCard;
+    }
+    }
+    
+  }
+}

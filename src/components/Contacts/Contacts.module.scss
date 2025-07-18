@@ -16,20 +16,22 @@
     }
     .c_container {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column-reverse;
+      padding: $PaddingMobile;
 
       .social {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-bottom: $MSections;
 
         .tel,
         .email {
           text-decoration: none;
-          color: $HoverColor;
+          color: $MainColor;
 
           &:hover {
-            color: $MainColor;
+            color: $HoverColor;
           }
           &:active {
             color: $ActiveColor;
@@ -39,32 +41,31 @@
         .social_media {
           a {
             svg {
-              font-size: $fz24;
+              font-size: $fz28;
               padding: 5px 10px;
               margin: 30px 7px;
-              animation: animate 3s linear infinite;
+              animation: animate 4s linear infinite;
+              transition: transform 0.8s ease;
 
               &:hover {
-                transform: scale(1.1);
+                transform: scale(1.5);
               }
             }
           }
-          .instagram {
-            animation-delay: 2s;
-          }
+          // .instagram,
+          // .telegram,
+          // .facebook,
+          // .youtube {
+          //   animation-delay: 2s;
+          // }
 
-          .telegram {
-            animation-delay: 2s;
-          }
-
-          .facebook {
-            animation-delay: 2s;
-          }
           @keyframes animate {
             from {
-              filter: hue-rotate(0deg);
+              fill: #d28ca1;
+              filter: hue-rotate(240deg);
             }
             to {
+              fill: #c3369f;
               filter: hue-rotate(360deg);
             }
           }
@@ -82,9 +83,6 @@
       width: 100%;
 
       .c_container {
-        flex-direction: column-reverse;
-        padding: $PaddingMobile;
-
         .social {
           margin-top: $MText;
         }
@@ -101,7 +99,6 @@
       width: 100%;
 
       .c_container {
-        flex-direction: column-reverse;
         padding: $PaddingTablet;
         align-items: center;
 

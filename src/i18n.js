@@ -22,21 +22,22 @@ i18n
 
           close: "Закрити",
 
-          mainName: "Перекладач Ірина Дергачова",
+          mainName: "Ірина Дергачова",
           mainText:
-            "Надаю високоякісні переклади на японську та англійську мову. Проводжу заняття з вивчення японської та англійської мови, а також майстер-класи.",
+            "Перекладач (японська, англійська та українська мова), бізнес-консультант і викладач з понад 6-річним досвідом життя та роботи в Японії.",
           getConsultation: "Отримати консультацію",
           serviceText:
             "Пропоную достовірний та якісний переклад з японської на українську, з української на японську, а також з англійської на українську мову та з української на англійську.",
-          writtenTranslation: "Письмовий переклад",
+          card1: "Індивідуальні заняття з японської мови",
 
           general: "Загальний",
+          IT: "IT",
           scientific: "Науковий",
           medical: "Медичний",
           legal: "Юридичний",
           publishingHouse: "Переклад видавництва",
 
-          oral: "Усний (послідовний) переклад",
+          card2: "Заняття у групах з японської мови",
           online: "Онлайн",
           interview: "Інтерв’ю, репортаж",
           business: "Бізнес зустрічі",
@@ -44,17 +45,19 @@ i18n
           negotiations: "Політичні перемовини",
           conversation: "Проста розмова на загальні теми",
 
-          spot: "На місці",
+          card3: "Підтримка вашого бізнесу у Японії",
           television: "Телебачення, ЗМІ, радіо",
           socialProjects: "Соціальні проекти",
           accompanying: "Супровідний переклад",
 
-          videoTranslation: "Переклад відео",
+          card4:
+            "Переклад та усний переклад (японська, англійська, українська та російська мови)",
           subtitles: "Переклад субтитрів",
           transcription: "Транскрипція",
           voicing: "Озвучування",
 
           order: "Замовити",
+          details: "Детальніше",
           fromWrittenTranslation: "Від 500 грн",
           fromOralOnline: "Від 600 грн",
           fromOralSpot: "Від 1200 грн",
@@ -62,9 +65,9 @@ i18n
 
           aboutMeTitle: "Про мене",
           aboutMe:
-            "<0>Мене звати Дергачова Ірина, я перекладач з японської та англійської мов з 2014 року. Маю досвід в роботі з загальним, юридичним, медичним, науковим, соціальним і бізнес перекладом. Працюю як з усним перекладом, так і письмовим. Закінчила два університети в Україні - ХНПУ імені Г.С. Сковороди (бакалавр) та КНУ імені Т.Г. Шевченка (магістр) за спеціальністю японська та англійська мова і переклад. Маю сертифікат з рівню знання японської JLPT N1 (найвищий рівень).<p>Я переможець японського конкурсу промов у місті Київ, завдяки чому змогла вперше поїхати до Японії за дослідницькою програмою Japan Foundation (Osaka) у 2015 році.</p><p>2016 - 2018 працювала викладачем японської мови в університеті УДУ імені Драгоманова.</p><p>З 2019 року я працювала у Японії у коледжі в Нагої у відділі підтримки міжнародних студентів.</p></0>",
+            "<0>Я — Ірина Дергачова, професійний перекладач, викладач та бізнес-консультант з японської, англійської, української та російської мов. Маю понад 11 років досвіду, включаючи 6 років проживання та роботи в Японії.<p>Я допомагаю підприємцям та компаніям налагоджувати та розвивати успішні ділові відносини з Японією. Від першого контакту до повномасштабного розширення — я надаю індивідуальну підтримку, адаптовану до ваших цілей. </p><p>Як викладач, я з пристрастю допомагаю учням опановувати японську мову, роблячи процес зрозумілим, ефективним та приємним. Оскільки мова та культура нерозривно пов'язані, я допомагаю своїм студентам підготуватися до реального досвіду в японському середовищі.</p><p>Незалежно від того, чи ви готуєтеся до іспитів JLPT, плануєте поїздку до Японії, чи прагнете глибшого культурного зв'язку, я підтримаю вас на кожному кроці. Багато моїх студентів успішно склали іспити JLPT, а потім відвідали або навіть переїхали до Японії! Я також пропоную корпоративні уроки японської мови.</p> <p>Щоб полегшити ваше життя в Японії, я надаю професійні послуги усного перекладу в загальних, юридичних та медичних сферах, забезпечуючи безперешкодне та безстресове спілкування. </p></0>",
           aboutMe2:
-            "<0><p>З травня 2020 по липень 2021 року - працювала перекладачем та веб-дизайнером в японській IT компанії Demand-Link.</p><p>З 2022 року співпрацюю з японськими перекладацькими конторами Linegate, Sunflare, Intergroup, Franchir. Працювала у відділі міжнародних новин на каналі TBS. Перекладала для НПО та організацій, що підтримують біженців NPO Kraiyany, CINGA, FRJ, Arrupe Refugee Center, Minato International Association (MIA). Я маю багатий досвід з перекладу і спілкування з людьми.</p><p>У 2023 р. створила благодійний проект “Японська з серцем”, де викладаю японську мову на волонтерських засадах. Займаюся поширенням української культури, зокрема викладаю приготування українських страв та вишивання хрестиком. Крім того, у 2023 році проводила заняття з розмовної англійської мови, для підготовки волонтерів, а з 2024 року проводжу навчання англійській мові та EQ (емоційний інтелект), щоб допомогти людям стати громадянами світу. Маю сертифікат тренера з емоційного інтелекту та 2 ступінь енергетичного зцілення Рейкі.</p></0>",
+            "<0><p>Я пропоную 30-хвилинну консультацію з будь-якої моєї послуги. Не соромтеся зв'язатися зі мною, використовуючи контактну інформацію нижче.</p></0>",
 
           projectTextEng:
             "Проект вивчення англійської мови “English for Earth Citizen” - “Англійська для громадян Землі”. Уроки англійської для закордонних подорожей, роботи за кордоном, взаємодії з іноземцями, міжнародного бізнесу, проектів, трансляцій та підприємців. Включає тренування з емоційного інтелекту. Будь ласка, зв'яжіться зі мною, якщо ви зацікавлені.",
@@ -116,7 +119,7 @@ i18n
 
           contact: "Контакти",
           city: "Японія",
-          contactText: "Завжди рада бути вам корисною!",
+          contactText: "Знайдіть мене в соціальних мережах, де я ділюся своїм досвідом життя в Японії.",
 
           formName: "Ваше ім’я",
           formMail: "Ваша пошта",
@@ -127,6 +130,145 @@ i18n
           send: "Відправити",
 
           top: "Вгору",
+
+          individualMainText:
+            "Бажаєте легко вивчати японську та впевнено інтегруватися в японське суспільство?",
+          individualMainText2: "Я тут, щоб допомогти!",
+          individualText1:
+            " Пропоную безкоштовний 30-хвилинний пробний урок — ідеальну можливість познайомитися з моїм стилем викладання, поставити запитання та зрозуміти, чи підходимо ми один одному для досягнення ваших навчальних цілей.",
+          individualOffer: "Що я пропоную:",
+          individualOffer1:
+            "Приватні онлайн-уроки (оберіть тривалість, яка вам підходить):",
+          individualOfferText1: "60 хвилин",
+          individualOfferText2: "90 хвилин",
+          individualOffer2:
+            "Частота занять гнучка і залежить від ваших цілей та розкладу:",
+          individualOfferText3: "Раз на тиждень",
+          individualOfferText4: "Двічі на тиждень",
+          individualOfferText5:
+            "Тричі на тиждень (або більше для інтенсивного навчання)",
+          individualOffer3: "Доступні рівні уроків:",
+          individualOfferText6: "Початковий",
+          individualOfferText7: "Середній",
+          individualOfferText8: "Просунутий",
+          individualGain: "Що ви отримаєте:",
+          individualGainText1: {
+            item1: "Швидкий прогрес та зростаюча впевненість у японській мові.",
+            item2: "Опанування граматики та лексики в реальних контекстах.",
+            item3:
+              "Читання та письмо каною, канджі та практичне спілкування (електронні листи, повідомлення).",
+            item4:
+              "Культурні знання та етикет — важливі для розуміння японської мови.",
+            item5: "Підготовка до природних розмов з носіями мови.",
+            item6:
+              "Навички орієнтування у формальних та неформальних ситуаціях, що ідеально підходить для подорожей, роботи чи повсякденного життя в Японії.",
+          },
+          individualText2:
+            "Готові розпочати? Напишіть мені, щоб запланувати ваш безкоштовний пробний урок, і давайте разом розпочнемо вашу японську подорож!",
+          individualText3: "Не впевнені щодо свого поточного рівня японської?",
+          individualText4:
+            "Без проблем! Я пропоную спеціальний урок для визначення рівня, щоб оцінити ваші навички та створити персоналізований план навчання саме для вас.",
+          individualText5:
+            "Підготовка до JLPT (Іспит з визначення рівня володіння японською мовою)",
+          individualText6:
+            "Маю великий досвід успішної підготовки студентів до наступних рівнів JLPT:",
+          individualText7: "часто вимагається для роботи в Японії",
+          individualText8:
+            "Завдяки структурованим урокам та широкому спектру практичних матеріалів ви почуватиметеся впевнено та добре підготовленими в день іспиту — і будете готові застосувати свої знання для досягнення особистих та професійних цілей.",
+          individualText9: "Доступні інші формати уроків:",
+          individualText10: "Заняття в малих групах (міні-групи):",
+          individualText11: "Навчайтеся в міні-групах по 4-5 осіб.",
+          individualText12: "Корпоративне навчання:",
+          individualText13:
+            "Ідеально підходить для компаній, які бажають допомогти своїм співробітникам ефективно та професійно вивчити японську мову. ",
+          individualButton:
+            "Будь ласка, зв'яжіться зі мною для отримання детальної інформації.",
+
+          groupMain:
+            "Я пропоную онлайн уроки японської мови в міні-групах (4-5 чоловік), розроблені так, щоб зробити вивчення мови цікавим, структурованим та орієнтованим на спільноту.",
+          groupLevelText: "Заняття організовані за рівнями:",
+          groupLevel: {
+            item1: "Початковий (N5)",
+            item2: "Базовий (N4)",
+            item3: "Середній (N3-N2)",
+          },
+          groupText1:
+            "Ви завжди будете навчатися разом з іншими студентами, які мають схожі навички та цілі.",
+          groupText2:
+            "На моїх групових заняттях ми виходимо за рамки лише граматики та лексики. Я також інтегрую важливі знання про японську культуру, етикет та традиції — це надзвичайно важливо для тих, хто планує подорожувати, працювати або жити в Японії.",
+          groupText3:
+            "Атмосфера на уроках тепла, інклюзивна та підтримуюча. Кожен студент отримує індивідуальну увагу, і ви завжди можете попросити додаткову практику або персоналізовані завдання.",
+          groupText4:
+            "Групові програми також включають структуровану підготовку до JLPT для рівнів N5, N4 та N3, використовуючи перевірені матеріали та стратегії для вашого успіху.",
+          groupText5: "Не впевнені, чи підходить вам групове навчання?",
+          groupText6:
+            "Замовте безкоштовний 30-хвилинний пробний урок, щоб ознайомитися з форматом, оцінити доступність місць та знайти найкращий шлях для себе.",
+          groupText7: "Для компаній",
+          groupText8:
+            "Ви представляєте компанію і бажаєте, щоб ваші співробітники вивчали японську?",
+          groupText9:
+            "Я пропоную корпоративні програми мовного навчання, адаптовані до потреб вашого бізнесу. Звертайтеся за додатковою інформацією.",
+          groupText10: "Віддаєте перевагу індивідуальному навчанню?",
+          groupText11:
+            "Я також надаю індивідуальні уроки, розроблені для швидкого прогресу — ідеально, якщо вам потрібна японська для роботи, навчання або переїзду до Японії.",
+
+          businessMain: "Плануєте розпочати чи розширити свій бізнес в Японії?",
+          businessMain2:
+            "Я надаю комплексну підтримку та супровід бізнесу, щоб допомогти вам легко та впевнено орієнтуватися на японському ринку.",
+          businessAssistance: "З моєю допомогою ви отримаєте:",
+          businessText: {
+            item1: "Послуги усного перекладу та підтримку комунікації",
+            item2: "Підготовку та перевірку документів",
+            item3: "Сприяння у проведенні ділових зустрічей та переговорів",
+            item4: "Налагодження зв'язків та допомогу з процесами",
+          },
+          businessText1:
+            "Завдяки глибокому культурному розумінню та мовній експертизі я допоможу зробити запуск або розширення вашого бізнесу в Японії більш плавним, ефективним та безстресовим, заощаджуючи ваш час, ресурси та уникаючи потенційних непорозумінь.",
+          businessText2: "Потрібно, щоб ваша команда вивчила японську?",
+          businessText3:
+            "Я також пропоную індивідуальні корпоративні уроки японської мови для компаній, які хочуть забезпечити свої команди необхідними комунікативними навичками для успішного ведення бізнесу в Японії.",
+          businessButton:
+            "Будь ласка, зв'яжіться зі мною, використовуючи форму або контактні дані нижче.",
+          businessText4:
+            "Замовте безкоштовну 30-хвилинну консультацію, щоб дізнатися, як я можу підтримати ваш бізнес у Японії.",
+
+          translationMain: "Послуги усного та письмового перекладу",
+          translationText:
+            "Я пропоную професійні послуги усного перекладу з японської, англійської, української та російської мов у широкому спектрі сфер:",
+          translationInterpretation: {
+            item1: "Загальний усний переклад",
+            item2:
+              "Для повсякденних ситуацій, включно з інтерв'ю для ЗМІ, зустрічами, культурними обмінами, подорожами та особистим спілкуванням.",
+            item3: "Бізнес-переклад",
+            item4:
+              "Підтримка під час ділових переговорів, зустрічей, презентацій та обговорень між компаніями чи партнерами.",
+            item5: "Юридичний переклад",
+            item6:
+              "Допомога під час юридичних консультацій, імміграційних послуг, судових засідань, обговорень контрактів тощо.",
+            item7: "Медичний переклад",
+            item8:
+              "Переклад у лікарнях, поліклініках або під час медичних консультацій для забезпечення чіткості, комфорту та точності під час життєво важливих розмов, пов'язаних зі здоров'ям.",
+          },
+          translationText1:
+            "Усний переклад може надаватися особисто або онлайн, залежно від ваших потреб та місцезнаходження. Я також пропоную супровідний переклад для заходів, візитів або зустрічей, що вимагають підтримки на місці.",
+          translationText2: "Послуги письмового перекладу",
+          translationText3:
+            "Я також пропоную послуги письмового перекладу за широким колом тем та типів документів, включно з:",
+          translationText4: {
+            item1: "Ділові та юридичні документи",
+            item2: "Медичні записи та інструкції",
+            item3: "Електронні листи, листи та особисте листування",
+            item4: "Навчальні матеріали та презентації",
+            item5: "Вміст вебсайтів та рекламні матеріали",
+            item6: "Субтитри та транскрипти відео",
+          },
+          translationText5:
+            "Кожен переклад виконується з точністю та ретельністю, забезпечуючи достовірність, зберігаючи тон, стиль та культурну відповідність, незалежно від того, чи перекладаєте ви з японської на англійську, чи з англійської, української чи російської на японську.",
+          translationText6: "Потрібна допомога зі спілкуванням у Японії?",
+          translationText7:
+            "Давайте гарантуємо, що ваше повідомлення буде зрозумілим — чітко, професійно та з культурною чутливістю.",
+          translationText8:
+            "Зв'яжіться зі мною сьогодні для безкоштовної 30-хвилинної консультації!",
         },
       },
       en: {
@@ -139,21 +281,22 @@ i18n
 
           close: "Close",
 
-          mainName: "Translator and Interpreter Iryna Derhachova",
+          mainName: "Iryna Derhachova",
           mainText:
-            "High-quality translation services from Japanese to English and from English to Japanese. Additionally, I provide effective communication in Ukrainian and Russian. I am available for workshops and public speaking as well.",
+            "Japanese, English, Ukrainian, and Russian interpreter, business consultant, and teacher with over 6 years of life and work experience in Japan.",
           getConsultation: "Reservation or inquiry",
           serviceText:
             "I offer accurate, reliable, and affordable translation and interpretation services from Japanese to English and vice versa. I also work with language pairs such as English-Ukrainian, Japanese-Ukrainian, and English-Russian if needed.",
-          writtenTranslation: "Written translation",
+          card1: "Individual Japanese Lessons",
 
           general: "General",
+          IT: "IT",
           scientific: "Scientific",
           medical: "Medical",
           legal: "Legal",
           publishingHouse: "Translation of the publishing house",
 
-          oral: "Oral (consecutive) translation",
+          card2: "Group Japanese Lessons",
           online: "Online",
           interview: "Interview, report",
           business: "Business meetings",
@@ -161,17 +304,19 @@ i18n
           negotiations: "Political negotiations",
           conversation: "Simple conversation on general topics",
 
-          spot: "On the spot",
+          card3: "Business Support in Japan",
           television: "Television, mass media, radio",
           socialProjects: "Social projects",
           accompanying: "Accompanying interpreter",
 
-          videoTranslation: "Video translation",
+          card4:
+            "Interpretation and translation in Japanese, English, Ukrainian, and Russian",
           subtitles: "Translation of subtitles",
           transcription: "Transcription",
           voicing: "Voicing",
 
           order: "Order",
+          details: "Details",
           fromWrittenTranslation: "From 33 $",
           fromOralOnline: "From 15$",
           fromOralSpot: "From 33$",
@@ -179,9 +324,9 @@ i18n
 
           aboutMeTitle: "About me",
           aboutMe:
-            "<0>My name is Iryna Derhachova, and I have been working as a translator and interpreter for Japanese, English, and Ukrainian since 2014. I have experience in various fields such as general translation, legal translation, medical translation, scientific translation, social translation, and business translation. I provide both oral and written translation services. I have a bachelor's degree from Kharkiv National Pedagogical University named after H.S. Skovorody and a master's degree from Kyiv National University named after T.G. Shevchenko, majoring in Japanese and English language and translation. I am also certified in Japanese JLPT N1, which is the highest level of proficiency.<p>I have achieved several accomplishments throughout my career. In 2015, I won a Japanese speech contest in Kyiv, which allowed me to participate in a research program at the Japan Foundation in Osaka.</p><p>From 2016 to 2018, I worked as a Japanese language instructor at Drahomanov State University.</p><p>Since 2019, I have been working in Japan at a college in Nagoya, specifically in the international student support department.</p></0>",
+            "<0>I’m Iryna Derhachova — a professional interpreter, teacher, and business consultant in Japanese, English, Ukrainian, and Russian, with over 11 years of experience, including 6 years of living and working in Japan.<p>I help entrepreneurs and companies establish and grow successful business relationships with Japan. From the first connection to full-scale expansion, I provide personalized support tailored to your goals.</p><p>As a passionate educator, I also guide learners on their journey to mastering Japanese — making the process clear, effective, and enjoyable. Since language and culture go hand in hand, I help my students prepare for real-life experiences in a Japanese environment. </p><p>Whether you’re preparing for the JLPT exams, planning a trip to Japan, or seeking a deeper cultural connection, I’ll support you every step of the way. Many of my students have passed JLPT exams and later visited or even moved to Japan! I also offer corporate Japanese lessons. </p><p>To make your life in Japan easier, I provide professional interpreting services in general, legal, and medical contexts — ensuring smooth, stress-free communication. </p></0>",
           aboutMe2:
-            "<0><p>From May 2020 to July 2021, I worked as a translator and web designer at the Japanese IT company Demand-Link.</p><p>Since 2022, I have been collaborating with Japanese translation agencies such as Linegate, Sunflare, Intergroup, and Franchir. I have also worked in the international news department at TBS channel and provided translation services for NGOs and organizations supporting refugees, including NPO Kraiyany, CINGA, FRJ, Arrupe Refugee Center, and Minato International Association (MIA). I have extensive experience in translation and communication with people.</p><p>In 2023, I initiated the charity project 'Japanese with a Heart', where I volunteer to teach Japanese. I am also involved in promoting Ukrainian culture, particularly in teaching Ukrainian cuisine and cross-stitch embroidery. In 2023 I was holding English conversation classes to train volunteers, and from 2024 I am providing English and EQ (emotional intelligence) coaching to help people become global citizens. Additionally, I hold certifications as an emotional intelligence trainer and a second-degree Reiki energy healer.</p></0>",
+            "<0><p>I offer a 30-minute consultation on any of my services. Feel free to get in touch using the contact information below. </p></0>",
 
           projectTextEng:
             "Project “English for Earth Citizen”. English lessons for overseas travel, overseas work, interaction with foreigners, international business, international projects, streaming for overseas, and international entrepreneurs. English for Earth citizen includes EQ coaching. Please contact me if you are interested.",
@@ -233,7 +378,7 @@ i18n
 
           contact: "Contact",
           city: "Tokyo, Japan",
-          contactText: "Do not hesitate to contact me! I am at your service!",
+          contactText: "Find me on social media where I'm sharing my life experience in Japan.",
 
           formName: "Your name",
           formMail: "Your e-mail",
@@ -244,6 +389,143 @@ i18n
           send: "Send",
 
           top: "TOP",
+
+          individualMainText:
+            "Would you like to study Japanese with ease and integrate into Japanese society smoothlyand confidently?",
+          individualMainText2: "I’m here to help!",
+          individualText1:
+            " I offer a free 30-minute trial lesson — a perfect opportunity to get to know my teaching style, ask questions, and see if we’re a good fit for your learning goals.",
+          individualOffer: "What I offer:",
+          individualOffer1:
+            "Private online lessons (choose the duration that suits you):",
+          individualOfferText1: "60 minutes",
+          individualOfferText2: "90 minutes",
+          individualOffer2:
+            "Lesson frequency is flexible and depends on your goals and schedule:",
+          individualOfferText3: "Once a week",
+          individualOfferText4: "Twice a week",
+          individualOfferText5:
+            " Three times a week (or more for intensive learning)",
+          individualOffer3: "Lesson Levels Available:",
+          individualOfferText6: "Beginner",
+          individualOfferText7: "Intermediate",
+          individualOfferText8: "Advanced",
+          individualGain: "What you'll gain:",
+          individualGainText1: {
+            item1: "Fast progress and growing confidence in Japanese",
+            item2: "Mastery of grammar and vocabulary in real-life contexts",
+            item3:
+              "Reading and writing in kana, kanji, and practical communication (emails, messages)",
+            item4:
+              "Cultural insight and etiquette — essential for understanding the Japanese language",
+            item5: "Preparation for natural conversations with native speakers",
+            item6:
+              "Skills to navigate formal and informal situations, perfect for travel, work, or daily life in Japan",
+          },
+          individualText2:
+            "Ready to begin? Message me to schedule your free trial lesson and let’s start your Japanese journey together!",
+          individualText3: "Not sure about your current Japanese level?",
+          individualText4:
+            "No problem! I offer a dedicated level-check lesson to assess your skills and create a personalized learning plan just for you.",
+          individualText5:
+            "JLPT Preparation (Japanese Language Proficiency Test)",
+          individualText6:
+            "I have extensive experience helping students successfully prepare for the following JLPT levels:",
+          individualText7: "often required for work in Japan",
+          individualText8:
+            "With structured lessons and a wide range of practice materials, you’ll feel confident and well-prepared on exam day — and ready to apply your knowledge toward your personal and professional goals.",
+          individualText9: "Other lesson formats available:",
+          individualText10: "Small group lessons (mini-groups):",
+          individualText11: "Study in minigroups of 4-5 people.",
+          individualText12: "Corporate training",
+          individualText13:
+            "Perfect for companies that want to support their team members in learning Japanese efficiently and professionally.",
+          individualButton: "Please contact me for details.",
+
+          groupMain:
+            "I offer online group Japanese lessons designed to make language learning engaging, structured, and community-driven. ",
+          groupLevelText: " Classes are organized by level:",
+          groupLevel: {
+            item1: "Beginner",
+            item2: "Pre-Intermediate",
+            item3: "Intermediate",
+          },
+          groupText1:
+            "You’ll always be learning alongside others with similar skills and goals.",
+          groupText2:
+            "In my group lessons, we go beyond grammar and vocabulary. I also integrate essential insights into Japanese culture, etiquette, and traditions — crucial for anyone planning to travel, work, or live in Japan.",
+          groupText3:
+            "The atmosphere is warm, inclusive, and encouraging. Every student receives individual attention, and you’re always welcome to request extra practice or personalized tasks.",
+          groupText4:
+            "Group programs also include structured JLPT preparation for levels N5, N4, and N3, using proven materials and strategies to support your success.",
+          groupText5: "Not sure if group learning is right for you?",
+          groupText6:
+            "Request a free 30-minute trial lesson to explore the format, assess availability, and find your best path forward.",
+          groupText7: "For Companies",
+          groupText8:
+            "Do you represent a company and want your employees to learn Japanese?",
+          groupText9:
+            "I offer corporate language training programs tailored to your business needs. Feel free to reach out for more information.",
+          groupText10: "Prefer Individual Learning?",
+          groupText11:
+            "I also provide one-on-one lessons designed for rapid progress — perfect if you need Japanese for work, study, or relocation to Japan.",
+
+          businessMain: "Planning to start or expand your business in Japan?",
+          businessMain2:
+            "I provide comprehensive business support and accompaniment services to help you navigate the Japanese market with ease and confidence.",
+          businessAssistance: "With my assistance, you will receive:",
+          businessText: {
+            item1: "Interpreting and communication support",
+            item2: "Document preparation and review",
+            item3: "Business meeting and negotiation facilitation",
+            item4: "Connection-building and process guidance",
+          },
+          businessText1:
+            "With deep cultural insight and linguistic expertise, I’ll help make your business launch or expansion in Japan smoother, more efficient, and stress-free — saving you time, resources, and avoiding potential misunderstandings.",
+          businessText2: "Need your team to learn Japanese?",
+          businessText3:
+            "I also offer customized corporate Japanese lessons for companies that want to equip their teams with essential communication skills for successful business in Japan.",
+          businessButton: "Please contact me using the form or details below",
+          businessText4:
+            "Book a free 30-minute consultation to find out how I can support your business journey in Japan.",
+
+          translationMain: "Professional Interpretation Services",
+          translationText:
+            "I offer professional interpretation in Japanese, English, Ukrainian, and Russian across a wide range of fields:",
+          translationInterpretation: {
+            item1: "General Interpretation",
+            item2:
+              "For everyday situations including media interviews, meetings, cultural exchanges, travel, and personal communication.",
+            item3: " Business Interpretation",
+            item4:
+              "Support for business negotiations, meetings, presentations, and discussions between companies or partners.",
+            item5: "Legal Interpretation",
+            item6:
+              "Assistance at legal consultations, immigration services, court proceedings, contract discussions, and more.",
+            item7: "Medical Interpretation",
+            item8:
+              "Interpretation at hospitals, clinics, or health consultations to ensure clarity, comfort, and accuracy during vital health-related conversations.",
+          },
+          translationText1:
+            "Interpretation can be provided in person or online, based on your needs and location. I also offer accompaniment interpretation for events, visits, or appointments requiring on-site support.",
+          translationText2: "Translation Services",
+          translationText3:
+            "I also offer written translation services across a wide range of topics and document types, including:",
+          translationText4: {
+            item1: "Business and legal documents",
+            item2: "Medical records and instructions",
+            item3: "Emails, letters, and personal correspondence",
+            item4: "Educational materials and presentations",
+            item5: "Website and promotional content",
+            item6: "Video subtitles and transcripts",
+          },
+          translationText5:
+            "Every translation is handled with precision and care — ensuring accuracy, while preserving tone, style, and cultural relevance, whether translating from Japanese to English or from English, Ukrainian, or Russian into Japanese.",
+          translationText6: "Need help communicating in Japan?",
+          translationText7:
+            "Let’s ensure your message is understood — clearly, professionally, and with cultural sensitivity.",
+          translationText8:
+            "Contact me today for a free 30-minute consultation!",
         },
       },
       jp: {
@@ -262,15 +544,17 @@ i18n
           getConsultation: "ご予約・お問い合わせ",
           serviceText:
             "丁寧で自然な正しい日本語⇔ウクライナ語、日本語⇔英語、日本語⇔ロシア語の翻訳・通訳を格安で提供しております。",
-          writtenTranslation: "翻訳",
+          card1: "翻訳",
 
           general: "一般文書",
+          IT: "IT",
           scientific: "技術",
           medical: "医療",
           legal: "法律・契約",
           publishingHouse: "出版翻訳",
 
-          oral: "通訳（逐次通訳）",
+          card2: "通訳（逐次通訳）",
+          details: "さらに詳しく",
           online: "オンライン",
           interview: "インタビューや取材など",
           business: "ビジネスミーティング",
@@ -278,12 +562,12 @@ i18n
           negotiations: "政治交渉",
           conversation: "一般の話",
 
-          spot: "現地で",
+          card3: "現地で",
           television: "テレビ、ラジオ、SNS",
           socialProjects: "ソーシャルプロジェクト",
           accompanying: "同行通訳",
 
-          videoTranslation: "映像翻訳",
+          card4: "映像翻訳",
           subtitles: "字幕翻訳",
           transcription: "文字起こし",
           voicing: "吹き替え翻訳",

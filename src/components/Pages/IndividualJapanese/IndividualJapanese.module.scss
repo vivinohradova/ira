@@ -1,0 +1,203 @@
+@import "../../../assets/scss/Colors.module.scss";
+@import "../../../assets/scss/Fonts.module.scss";
+@import "../../../assets/scss/Mixin.module.scss";
+
+.page {
+  // height: 100vh; /* Занимает весь экран по высоте */
+  // overflow-y: auto; /* Включаем вертикальную прокрутку */
+  // scroll-snap-type: y mandatory;
+  // scroll-padding-top: 30px;
+
+  // section {
+  //   scroll-snap-align: start;    /* Каждая секция «прилипает» к началу контейнера */
+  // /* Опционально, чтобы секции точно были высотой экрана: */
+  // height: 100vh;
+  // }
+
+  // /* Скрываем скроллбар в Firefox */
+  // scrollbar-width: none;
+  // /* Скрываем скроллбар в IE/Edge */
+  // -ms-overflow-style: none;
+  // /* Скрываем скроллбар в WebKit-браузерах (Chrome, Safari, Opera) */
+  // .page::-webkit-scrollbar {
+  //   display: none;
+  // }
+
+  .headline {
+    background: url(../../../assets/images/knigi.jpg) no-repeat center center;
+    background-size: cover;
+
+    .container {
+      @include container;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: $Background;
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        font-size: $fz46;
+        text-align: center;
+        padding-top: 3%;
+      }
+
+      .wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 12%;
+
+        h3 {
+          font-size: $fz28;
+          text-align: center;
+          padding: 2% 0;
+          max-width: 600px;
+        }
+        :nth-child(2) {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .offer {
+    background: url(../../../assets/images/pink.jpg) no-repeat center center;
+    background-size: cover;
+
+    .container {
+      @include container;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.5);
+
+      h2 {
+        padding: 0 30px;
+      }
+    }
+  }
+
+  .card {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../../../assets/images/books.jpg) no-repeat center center;
+    background-size: cover;
+    .container {
+      @include container;
+      // height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // background-color: rgba(0, 0, 0, 0.2);
+
+      h3 {
+        text-align: center;
+        font-size: $fz28;
+        padding: 50px;
+        color: $Background;
+      }
+      div {
+        display: flex;
+        width: 80%;
+        height: 30%;
+        padding: 50px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2%;
+        background: linear-gradient(
+          135deg,
+          #ffeafe 0%,
+          #ffd8fb 50%,
+          #ec9fde 100%
+        );
+        box-shadow: 0px 10px 13px -7px #000000;
+        p {
+          font-size: $fz24;
+        }
+
+        li {
+          font-size: $fz20;
+
+          .star {
+            color: $MainColor;
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .card2 {
+    background-color: $BackgroundPink;
+    .container {
+      div {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  .call {
+    background-color: $ActiveColor;
+    font-size: $fz28;
+    padding: 10px;
+    text-align: center;
+
+    b {
+      font-weight: bold;
+      padding: 0 3px;
+    }
+  }
+  .lessons {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../../../assets/images/books.jpg) no-repeat center center;
+    background-size: cover;
+    .container {
+      @include container;
+      color: $Background;
+      padding: 0 30px 50px 30px;
+
+      h3,
+      ul,
+      li {
+        font-size: $fz24;
+
+        .icon {
+          padding-right: 15px;
+          color: $MainColor;
+        }
+      }
+      p {
+        font-size: $fz20;
+        padding: 10px 0;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+// Mobile
+@media screen and (max-width: 520px) {
+  .page {
+    .headline {
+      .container {
+        padding: $PaddingMobile;
+      }
+    }
+
+    .card{
+      .container{
+        div{
+          // width: 65%;
+          padding: 15px;
+
+          p{
+            font-size: $fz20;
+          }
+
+          li{
+            display: flex;
+            font-size: $MainSize;
+          }
+        }
+      }
+    }
+  }
+}

@@ -23,7 +23,7 @@ const Footer = () => {
 
         <div>
           <p className={styles.rights}>
-            &copy; All rights reserved Iryna Derhachova 2024
+            &copy; All rights reserved Iryna Derhachova {new Date().getFullYear()}
           </p>
           <p className={styles.rights}>
             Website Development:

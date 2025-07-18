@@ -7,11 +7,13 @@ import Reviews from "./components/Reviews/Reviews";
 import Services from "./components/Services/Services";
 import { LanguageProvider } from "./components/LanguageContext";
 import Footer from "./components/Footer/Footer";
-import Projects from "./components/Projects/Projects";
-import English from "./assets/images/english.jpg";
-import Food from "./assets/images/food.jpg";
-import Japan from "./assets/images/japan.jpg";
 import { useTranslation } from "react-i18next";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import BusinessSupport from "./components/Pages/BusinessSupport/BusinessSupport";
+import GroupJapanese from "./components/Pages/GroupJapanese/GroupJapanese";
+import IndividualJapanese from "./components/Pages/IndividualJapanese/IndividualJapanese";
+import Translation from "./components/Pages/Translation/Translation";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const { t } = useTranslation();
@@ -21,26 +23,29 @@ function App() {
         <div className={style.app}>
           <div className={style.container}>
             <Header />
-            <Main />
-            <Services />
-            <AboutMe />
-            <Projects
-              title={"English for Earth Citizen"}
-              text={t("projectTextEng")}
-              image={English}
-            />
-            <Projects
-              title={t("projectTitleUA")}
-              text={t("projectTextUA")}
-              image={Food}
-            />
-            <Projects
-              title={t("projectTitleVolunteer")}
-              text={t("projectTextVolunteer")}
-              image={Japan}
-            />
-            <Reviews />
-            <Contacts />
+            <ScrollToTop />
+            <Routes>
+              
+              <Route
+                path="/"
+                element={
+                  <>
+                    <Main />
+                    <Services />
+                    <AboutMe />
+                    <Reviews />
+                    <Contacts />
+                  </>
+                }
+              />
+              <Route path="/BusinessSupport" element={<BusinessSupport />} />
+              <Route path="/GroupJapanese" element={<GroupJapanese />} />
+              <Route
+                path="/IndividualJapanese"
+                element={<IndividualJapanese />}
+              />
+              <Route path="/Translation" element={<Translation />} />
+            </Routes>
             <Footer />
           </div>
         </div>
