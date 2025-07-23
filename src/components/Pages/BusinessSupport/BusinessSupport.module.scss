@@ -7,7 +7,7 @@
     background-color: $BackgroundOpacity;
     .container {
       @include container;
-      height: 100vh;
+      min-height: 100vh;
       color: $MainColor;
       display: flex;
       flex-direction: column;
@@ -105,13 +105,39 @@
   .call {
     background: $SubmitHover;
 
-    .container{
-       @include container;
+    .container {
+      @include container;
 
-      h2{
-      color: $BackgroundCard;
+      h2 {
+        color: $BackgroundCard;
+      }
     }
+  }
+}
+
+// Mobile
+@media screen and (max-width: 520px) {
+  .headline {
+    .container {
+      padding: $PaddingMobile;
     }
-    
+  }
+
+  .receive {
+    .container {
+      padding: $PaddingMobile;
+    }
+  }
+
+  .team {
+    .container {
+      padding: $PaddingMobile;
+    }
+  }
+
+  .call {
+    .container {
+      padding: $PaddingMobile;
+    }
   }
 }
