@@ -29,7 +29,7 @@
 
     .container {
       @include container;
-      height: 100vh;
+      min-height: 100vh;
       background-color: rgba(0, 0, 0, 0.5);
       color: $Background;
       display: flex;
@@ -65,7 +65,7 @@
 
     .container {
       @include container;
-      height: 100vh;
+      min-height: 100vh;
       display: flex;
       align-items: center;
       background-color: rgba(0, 0, 0, 0.5);
@@ -119,6 +119,7 @@
           .star {
             color: $MainColor;
             padding-right: 10px;
+            font-size: $MainSize;
           }
         }
       }
@@ -182,18 +183,18 @@
       }
     }
 
-    .card{
-      .container{
-        div{
+    .card {
+      .container {
+        div {
           // width: 65%;
           padding: 15px;
 
-          p{
+          p {
             font-size: $fz20;
           }
 
-          li{
-            display: flex;
+          li {
+            display: block;
             font-size: $MainSize;
           }
         }

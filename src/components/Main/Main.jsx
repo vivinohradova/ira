@@ -1,18 +1,19 @@
 import styles from "./Main.module.scss";
 import { useTranslation } from "react-i18next";
-import Popup from "../Popup/Popup";
+// import Popup from "../Popup/Popup";
 import { useState } from "react";
 import scrollToElement from "../ScrollUtils/ScrollUtils";
 import { GiHamburgerMenu } from "react-icons/gi";
+import WhatsAppButton from "../WhatsAppButton/WhatsAppButton";
 
 const Main = () => {
   const { t } = useTranslation();
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  // const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
-  const togglePopup = () => {
-    setIsPopupOpen(!isPopupOpen);
-  };
+  // const togglePopup = () => {
+  //   setIsPopupOpen(!isPopupOpen);
+  // };
 
   const handleClick = (e, targetId) => {
     e.preventDefault();
@@ -26,7 +27,7 @@ const Main = () => {
 
   return (
     <>
-      <main id="main" className={isPopupOpen ? styles.popupOpen : ""}>
+      <main id="main" className={styles.popupOpen}>
         <div className={styles.container}>
           <nav className={styles.menu}>
             <li>
@@ -86,12 +87,13 @@ const Main = () => {
 
           <h1 className={styles.title}>{t("mainName")}</h1>
           <p className={styles.text}>{t("mainText")}</p>
-          {!isPopupOpen && (
-            <button className={styles.button} onClick={togglePopup}>
+          {/* {!isPopupOpen && ( */}
+            {/* <button className={styles.button} onClick={togglePopup}>
               {t("getConsultation")}
-            </button>
-          )}
-          <Popup isPopupOpen={isPopupOpen} togglePopup={togglePopup} />
+            </button> */}
+          {/* )} */}
+          {/* <Popup isPopupOpen={isPopupOpen} togglePopup={togglePopup} /> */}
+          <WhatsAppButton className={styles.button} text={t('getConsultation')} />
         </div>
       </main>
     </>

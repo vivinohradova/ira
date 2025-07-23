@@ -73,32 +73,34 @@ main {
     .button {
       position: absolute;
       top: 75%;
-      color: $Background;
-      background: $MainColor;
-      border: none;
-      height: 60px;
-      font-weight: $Bold;
-      text-align: center;
-      border-radius: 15px;
-      cursor: pointer;
-      transition: all 0.4s ease;
-
-      &:hover {
-        background: $Background;
-        color: $MainColor;
-        border: 1px solid $MainColor;
-      }
-
-      &:active {
-        background: $ActiveColor;
-      }
     }
-  }
+    //     color: $Background;
+    //     background: $MainColor;
+    //     border: none;
+    //     height: 60px;
+    //     font-weight: $Bold;
+    //     text-align: center;
+    //     border-radius: 15px;
+    //     cursor: pointer;
+    //     transition: all 0.4s ease;
 
-  &.popupOpen .title,
-  &.popupOpen .text {
-    opacity: 0.5;
-    transition: opacity 0.3s ease;
+    //     &:hover {
+    //       background: $Background;
+    //       color: $MainColor;
+    //       border: 1px solid $MainColor;
+    //     }
+
+    //     &:active {
+    //       background: $ActiveColor;
+    //     }
+    //   }
+    // }
+
+    // &.popupOpen .title,
+    // &.popupOpen .text {
+    //   opacity: 0.5;
+    //   transition: opacity 0.3s ease;
+    // }
   }
 }
 
@@ -167,9 +169,6 @@ main {
         width: 250px;
         font-size: $fz20;
       }
-      .button {
-        left: 40%;
-      }
     }
   }
 }
@@ -180,7 +179,7 @@ main {
     .container {
       padding: $PaddingTablet;
 
- .menu {
+      .menu {
         display: none;
       }
       .gamburger {

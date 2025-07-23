@@ -6,7 +6,8 @@ import { MdOutlineSupportAgent } from "react-icons/md";
 import { IoDocumentAttachSharp } from "react-icons/io5";
 import { SiGotomeeting } from "react-icons/si";
 import { TbCloudDataConnection } from "react-icons/tb";
-import Button from "../../Button/Button";
+// import Button from "../../Button/Button";
+import WhatsAppButton from "../../WhatsAppButton/WhatsAppButton";
 import { Trans, useTranslation } from "react-i18next";
 
 const BusinessSupport = () => {
@@ -58,7 +59,7 @@ const BusinessSupport = () => {
             <img src={business2} alt="happy girl is working" />
             <p>{t("businessText3")}</p>
           </div>
-          <Button className={styles.button} text={t("businessButton")} />
+          <WhatsAppButton className={styles.button} text={t("businessButton")} />
         </div>
       </section>
       <section className={styles.call}>

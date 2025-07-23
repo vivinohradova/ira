@@ -2,8 +2,9 @@ import styles from "./IndividualJapanese.module.scss";
 import { FaStar } from "react-icons/fa";
 import { IoIosJournal } from "react-icons/io";
 import { IoBulbOutline } from "react-icons/io5";
-import Button from "../../Button/Button";
+// import Button from "../../Button/Button";
 import ButtonMore from "../../ButtonMore/ButtonMore";
+import WhatsAppButton from '../../WhatsAppButton/WhatsAppButton';
 import { Trans, useTranslation } from "react-i18next";
 
 const IndividualJapanese = () => {
@@ -153,7 +154,7 @@ const IndividualJapanese = () => {
               {t("individualText12")}
             </h3>
             <p>{t("individualText13")}</p>
-            <Button text={t("individualButton")} />
+            <WhatsAppButton text={t("individualButton")} />
           </div>
         </section>
       </div>
