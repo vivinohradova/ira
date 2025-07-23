@@ -7,15 +7,17 @@ import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 
 const Header = () => {
-  const { changeLanguage } = useLanguage();
+  const {  language, changeLanguage } = useLanguage();
   const { t } = useTranslation();
 
   const [selectedLanguage, setSelectedLanguage] = useState("en");
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
+     if (selectedLanguage !== language) {
     changeLanguage(selectedLanguage);
-  }, [changeLanguage, selectedLanguage]);
+  }
+  }, [changeLanguage, language, selectedLanguage]);
 
   const languages = ["en", "jp", "ua", "ru"];
 
