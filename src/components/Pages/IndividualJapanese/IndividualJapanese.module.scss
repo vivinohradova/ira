@@ -3,26 +3,6 @@
 @import "../../../assets/scss/Mixin.module.scss";
 
 .page {
-  // height: 100vh; /* Занимает весь экран по высоте */
-  // overflow-y: auto; /* Включаем вертикальную прокрутку */
-  // scroll-snap-type: y mandatory;
-  // scroll-padding-top: 30px;
-
-  // section {
-  //   scroll-snap-align: start;    /* Каждая секция «прилипает» к началу контейнера */
-  // /* Опционально, чтобы секции точно были высотой экрана: */
-  // height: 100vh;
-  // }
-
-  // /* Скрываем скроллбар в Firefox */
-  // scrollbar-width: none;
-  // /* Скрываем скроллбар в IE/Edge */
-  // -ms-overflow-style: none;
-  // /* Скрываем скроллбар в WebKit-браузерах (Chrome, Safari, Opera) */
-  // .page::-webkit-scrollbar {
-  //   display: none;
-  // }
-
   .headline {
     background: url(../../../assets/images/knigi.jpg) no-repeat center center;
     background-size: cover;
@@ -71,7 +51,7 @@
       background-color: rgba(0, 0, 0, 0.5);
 
       h2 {
-        padding: 0 30px;
+        font-size: $fz46;
       }
     }
   }
@@ -80,13 +60,12 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(../../../assets/images/books.jpg) no-repeat center center;
     background-size: cover;
+
     .container {
       @include container;
-      // height: 100vh;
       display: flex;
       flex-direction: column;
       align-items: center;
-      // background-color: rgba(0, 0, 0, 0.2);
 
       h3 {
         text-align: center;
@@ -94,6 +73,7 @@
         padding: 50px;
         color: $Background;
       }
+
       div {
         display: flex;
         width: 80%;
@@ -128,6 +108,7 @@
 
   .card2 {
     background-color: $BackgroundPink;
+
     .container {
       div {
         margin-bottom: 50px;
@@ -136,9 +117,9 @@
   }
 
   .call {
+    padding: 10px;
     background-color: $ActiveColor;
     font-size: $fz28;
-    padding: 10px;
     text-align: center;
 
     b {
@@ -146,14 +127,16 @@
       padding: 0 3px;
     }
   }
+
   .lessons {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(../../../assets/images/books.jpg) no-repeat center center;
     background-size: cover;
+
     .container {
       @include container;
       color: $Background;
-      padding: 0 30px 50px 30px;
+      padding-bottom: 50px;
 
       h3,
       ul,
@@ -165,6 +148,7 @@
           color: $MainColor;
         }
       }
+
       p {
         font-size: $fz20;
         padding: 10px 0;
@@ -180,13 +164,28 @@
     .headline {
       .container {
         padding: $PaddingMobile;
+
+        .title {
+          font-size: $fzH2;
+        }
+      }
+    }
+
+    .offer {
+      .container {
+        padding: $PaddingMobile;
+
+        h2 {
+          font-size: $fz30;
+          padding: 0;
+        }
       }
     }
 
     .card {
       .container {
+        padding: $PaddingMobile;
         div {
-          // width: 65%;
           padding: 15px;
 
           p {
@@ -200,5 +199,26 @@
         }
       }
     }
+
+    .lessons {
+      .container {
+        padding: $PaddingMobile;
+        padding-bottom: 50px;
+
+        h2 {
+          font-size: $fz30;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+    }
   }
 }
+
+//  Tablet SD
+@media screen and (min-width: 521px) and (max-width: 768px) {}
+
+// Tablet HD
+@media screen and (min-width: 769px) and (max-width: 1350px) {}
