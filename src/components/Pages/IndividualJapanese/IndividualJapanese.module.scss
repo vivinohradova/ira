@@ -218,7 +218,111 @@
 }
 
 //  Tablet SD
-@media screen and (min-width: 521px) and (max-width: 768px) {}
+@media screen and (min-width: 521px) and (max-width: 768px) {
+  .page {
+    .headline {
+      .container {
+        padding: $PaddingTablet;
+
+        .title {
+          font-size: $fzH2;
+        }
+      }
+    }
+
+    .offer {
+      .container {
+        padding: $PaddingTablet;
+
+        h2 {
+          font-size: $fz30;
+          padding: 0;
+        }
+      }
+    }
+
+    .card {
+      .container {
+        padding: $PaddingTablet;
+        div {
+          padding: 15px;
+
+          p {
+            font-size: $fz20;
+          }
+
+          li {
+            display: block;
+            font-size: $MainSize;
+          }
+        }
+      }
+    }
+
+    .lessons {
+      .container {
+        padding: $PaddingTablet;
+        padding-bottom: 50px;
+
+        h2 {
+          font-size: $fz30;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
 
 // Tablet HD
-@media screen and (min-width: 769px) and (max-width: 1350px) {}
+@media screen and (min-width: 769px) and (max-width: 1350px) {
+  .page {
+    .headline {
+      .container {
+        padding: $PaddingTablet;
+
+        .title {
+          font-size: $fzH2;
+        }
+      }
+    }
+
+    .offer {
+      .container {
+        padding: $PaddingTablet;
+
+        h2 {
+          font-size: $fz30;
+          padding: 0;
+        }
+      }
+    }
+
+    .card {
+      .container {
+        padding: $PaddingTablet;
+        div {
+          padding: 15px;
+
+          p {
+            font-size: $fz20;
+          }
+
+          li {
+            display: block;
+            font-size: $MainSize;
+          }
+        }
+      }
+    }
+
+    .lessons {
+      .container {
+        padding: $PaddingTablet;
+        padding-bottom: 50px;
+      }
+    }
+  }
+}
