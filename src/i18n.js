@@ -182,7 +182,7 @@ i18n
           individualText13:
             "Ідеально підходить для компаній, які бажають допомогти своїм співробітникам ефективно та професійно вивчити японську мову. ",
           individualButton:
-            "Будь ласка, зв'яжіться зі мною для отримання детальної інформації.",
+            "Будь ласка, зв'яжіться зі мною для отримання детальної інформації",
 
           groupMain:
             "Я пропоную онлайн уроки японської мови в міні-групах (4-5 чоловік), розроблені так, щоб зробити вивчення мови цікавим, структурованим та орієнтованим на спільноту.",
@@ -440,7 +440,7 @@ i18n
           individualText12: "Corporate training",
           individualText13:
             "Perfect for companies that want to support their team members in learning Japanese efficiently and professionally.",
-          individualButton: "Please contact me for details.",
+          individualButton: "Please contact me for details",
 
           groupMain:
             "I offer online group Japanese lessons designed to make language learning engaging, structured, and community-driven. ",
