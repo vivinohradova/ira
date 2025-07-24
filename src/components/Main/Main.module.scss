@@ -64,7 +64,7 @@ main {
 
     .text {
       position: absolute;
-      top: 330px;
+      top: 40%;
       width: 390px;
       font-size: $fz24;
       font-weight: $Normal;
@@ -161,12 +161,12 @@ main {
       }
 
       .title {
-        top: 18%;
+        top: 13%;
         font-size: $fzH2;
         width: 280px;
       }
       .text {
-        top: 250px;
+        // top: 250px;
         width: 250px;
         font-size: $fz20;
       }
