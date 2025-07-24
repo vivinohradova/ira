@@ -27,6 +27,8 @@
         p {
           padding-top: 25px;
         }
+
+         
       }
 
       &:nth-child(2) {
@@ -34,7 +36,14 @@
         margin-top: 20px;
         background-color: $Submit;
         padding-bottom: 20px;
-        
+
+        .aboutMe2 {
+          p{
+                   font-size: $fz30;
+                   text-align: center;
+          }
+           
+         }
       }
       
       
@@ -75,7 +84,11 @@
       }
 
       .video {
-        width: 50%;
+        // iframe {
+        //   width: 100%;
+        //   min-width: 300px;
+        //   max-width: 500px;
+        // }
       }
     }
     }
