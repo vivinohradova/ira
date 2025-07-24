@@ -78,6 +78,7 @@
 // Mobile
 @media screen and (max-width: 520px) {
   .contacts {
+    padding: $PaddingMobile;
     .container {
       background: none;
       width: 100%;
@@ -94,6 +95,7 @@
 //  Tablet SD
 @media screen and (min-width: 521px) and (max-width: 768px) {
   .contacts {
+    padding: $PaddingTablet;
     .container {
       background-size: 20%;
       width: 100%;
@@ -113,6 +115,7 @@
 // Tablet HD
 @media screen and (min-width: 769px) and (max-width: 1350px) {
   .contacts {
+    padding: $PaddingTablet;
     .container {
       width: 100%;
 

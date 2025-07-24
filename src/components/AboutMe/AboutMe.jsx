@@ -42,7 +42,7 @@ const AboutMe = () => {
             <figure>
               {/* <img className={styles.image} src={irina3} alt="my" /> */}
               <Trans i18nKey={"aboutMe2"}>
-                <figcaption>
+                <figcaption className={styles.aboutMe2}>
                   <p>
                     2020年5月から2021年7月まで、日本のIT企業Demand-Linkで翻訳者兼Webデザイナーとして働いていました。
                   </p>

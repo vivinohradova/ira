@@ -20,7 +20,7 @@
 
       .text {
         font-size: $fz20;
-        padding-bottom: 3%;
+        padding-bottom: 6%;
         color: $Background;
         text-align: center;
       }
@@ -53,6 +53,7 @@
 
             h3 {
               font-size: $fz28;
+              padding-bottom: 3%;
             }
             p {
               font-size: $fz20;
@@ -67,15 +68,14 @@
     background: $BackgroundOpacity;
     .container {
       @include container;
-      //    background-color: rgba(0, 0, 0, 0.5);
-      height: 100vh;
+      min-height: 100vh;
       color: $MainColor;
       display: flex;
       flex-direction: column;
 
       .text {
         font-size: $fz20;
-        padding-bottom: 3%;
+        padding-bottom: 6%;
         color: $HoverColor;
         text-align: center;
       }
@@ -112,12 +112,12 @@
     .container {
       @include container;
       background-color: rgba(0, 0, 0, 0.2);
-      height: 100vh;
+      min-height: 100vh;
 
       .title {
         color: $HoverColor;
       }
-      
+
       div {
         display: flex;
         justify-content: center;
@@ -146,6 +146,184 @@
 
       h2 {
         color: $BackgroundCard;
+      }
+    }
+  }
+}
+
+// Mobile
+@media screen and (max-width: 520px) {
+  .page {
+    .interpretation {
+      .container {
+        padding: $PaddingMobile;
+
+        .title {
+          font-size: $fz30;
+          padding: 0 0 30px 0;
+        }
+
+        ul {
+          li {
+            width: 100%;
+            align-items: flex-start;
+
+            .icon {
+              font-size: $fz30;
+              min-width: 30px;
+              min-height: 30px;
+            }
+          }
+        }
+      }
+    }
+
+    .translation {
+      .container {
+        padding: $PaddingMobile;
+
+        h2 {
+          font-size: $fz30;
+          padding: 30px 0;
+        }
+
+        ul {
+          li {
+            width: 100%;
+
+            .icon {
+              font-size: $fzH2;
+              min-width: 36px;
+              min-height: 36px;
+            }
+          }
+        }
+      }
+    }
+
+    .communicating {
+      .container {
+        padding: $PaddingMobile;
+
+        h2 {
+          font-size: $fz30;
+          padding: 20px 0;
+        }
+
+        div {
+          flex-wrap: wrap;
+
+          p {
+            padding-bottom: 6%;
+            font-size: $fz20;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .call {
+      .container {
+        padding: $PaddingMobile;
+      }
+    }
+  }
+}
+
+//  Tablet SD
+@media screen and (min-width: 521px) and (max-width: 768px) {
+  .page {
+    .interpretation {
+      .container {
+        padding: $PaddingTablet;
+
+        .title {
+          padding: 0 0 30px 0;
+        }
+
+        ul {
+          li {
+            width: 100%;
+            align-items: flex-start;
+
+            .icon {
+              font-size: $fzH2;
+              min-width: 40px;
+              min-height: 40px;
+            }
+          }
+        }
+      }
+    }
+
+    .translation {
+      .container {
+        padding: $PaddingTablet;
+
+        h2 {
+          padding: 30px 0;
+        }
+
+        ul {
+          li {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .communicating {
+      .container {
+        padding: $PaddingTablet;
+
+        h2 {
+          padding: 20px 0;
+        }
+
+        div {
+          flex-wrap: wrap;
+
+          p {
+            padding-bottom: 6%;
+            font-size: $fz20;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .call {
+      .container {
+        padding: $PaddingTablet;
+      }
+    }
+  }
+}
+
+// Tablet HD
+@media screen and (min-width: 769px) and (max-width: 1350px) {
+  .page {
+    .interpretation {
+      .container {
+        padding: $PaddingTablet;
+      }
+    }
+
+    .translation {
+      .container {
+        padding: $PaddingTablet;
+      }
+    }
+
+    .communicating {
+      .container {
+        padding: $PaddingTablet;
+      }
+    }
+
+    .call {
+      .container {
+        padding: $PaddingTablet;
       }
     }
   }
