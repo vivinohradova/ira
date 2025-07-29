@@ -10,14 +10,12 @@ const Header = () => {
   const {  language, changeLanguage } = useLanguage();
   const { t } = useTranslation();
 
-  const [selectedLanguage, setSelectedLanguage] = useState("en");
+  const [selectedLanguage, setSelectedLanguage] = useState("language");
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-     if (selectedLanguage !== language) {
-    changeLanguage(selectedLanguage);
-  }
-  }, [changeLanguage, language, selectedLanguage]);
+    setSelectedLanguage(language);
+  }, [language]);
 
   const languages = ["en", "jp", "ua", "ru"];
 
@@ -44,7 +42,7 @@ const Header = () => {
                 className={`${styles.buttonLang} ${
                   selectedLanguage === lang ? styles.selected : ""
                 }`}
-                key={index}
+                key={lang}
                 onClick={() => {
                   changeLanguage(lang);
                   setSelectedLanguage(lang);

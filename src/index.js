@@ -1,19 +1,21 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./i18n.js";
 import { BrowserRouter as Router } from "react-router-dom";
 
-ReactDOM.render(
+const container = document.getElementById("root");
+const root = createRoot(container);
+
+root.render(
   <React.StrictMode>
     <Router basename="/ira">
       <React.Suspense fallback={<div>Loading...</div>}>
         <App />
       </React.Suspense>
     </Router>
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );
 
 reportWebVitals();
