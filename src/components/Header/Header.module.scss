@@ -15,9 +15,11 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    .logo {
-      width: 75%;
-      max-height: 70px;
+    .logoWrapp {
+      .logo {
+        width: 75%;
+        max-height: 70px;
+      }
     }
 
     .buttonLang {
@@ -72,6 +74,29 @@ header {
       }
     }
 
+    .social_media {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .media {
+        font-size: $fz28;
+        padding: 0 6px;
+        color: $HoverColor;
+        transition: all 1s;
+
+        &:hover {
+          color: $MainColor;
+          scale: 1.5;
+          cursor: pointer;
+        }
+        &:active {
+          color: $Grey;
+        }
+      }
+    }
+
     .mobile {
       display: none;
       .gamburger {
@@ -86,6 +111,12 @@ header {
   header {
     .container {
       width: 100%;
+      justify-content: space-around;
+      padding: 3px 0;
+
+      .logoWrapp {
+        display: none;
+      }
 
       .menu {
         display: none;
@@ -99,6 +130,12 @@ header {
         }
         &:active {
           color: $Grey;
+        }
+      }
+
+      .social_media {
+        .media {
+          font-size: $fz20;
         }
       }
 
@@ -157,6 +194,13 @@ header {
         }
         &:active {
           color: $Grey;
+        }
+      }
+
+      .social_media {
+        width: 25%;
+        .media {
+          font-size: $fz20;
         }
       }
 

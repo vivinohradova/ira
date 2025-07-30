@@ -2,12 +2,14 @@ import logo from "../../assets/images/logo.png";
 import { useLanguage } from "../LanguageContext";
 import scrollToElement from "../ScrollUtils/ScrollUtils";
 import styles from "./Header.module.scss";
-// import { GiHamburgerMenu } from "react-icons/gi";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
+import { FaFacebook, FaInstagramSquare } from "react-icons/fa";
+import { BsTelegram } from "react-icons/bs";
+import { IoLogoYoutube } from "react-icons/io";
 
 const Header = () => {
-  const {  language, changeLanguage } = useLanguage();
+  const { language, changeLanguage } = useLanguage();
   const { t } = useTranslation();
 
   const [selectedLanguage, setSelectedLanguage] = useState("language");
@@ -25,15 +27,11 @@ const Header = () => {
     setIsOpen(false);
   };
 
-  // const handleClickHamburger = () => {
-  //   setIsOpen(!isOpen);
-  // };
-
   return (
     <>
       <header>
         <div className={styles.container}>
-          <a href="#main" onClick={(e) => handleClick(e, "main")}>
+          <a href="#main" className={styles.logoWrapp} onClick={(e) => handleClick(e, "main")}>
             <img className={styles.logo} src={logo} alt="logo" />
           </a>
           <div>
@@ -52,73 +50,30 @@ const Header = () => {
               </button>
             ))}
           </div>
-          {/* <nav className={styles.menu}>
-            <li>
-              <a href="#services" onClick={(e) => handleClick(e, "services")}>
-                <button type="button">{t("menuService")}</button>
-              </a>
-            </li>
 
-            <li>
-              <a href="#about" onClick={(e) => handleClick(e, "about")}>
-                <button type="button">{t("menuAboutMe")}</button>
-              </a>
-            </li> */}
-
-            {/* <li>
-              <a href="#projects" onClick={(e) => handleClick(e, "projects")}>
-                <button type="button">{t("menuProjects")}</button>
-              </a>
-            </li> */}
-
-            {/* <li>
-              <a href="#reviews" onClick={(e) => handleClick(e, "reviews")}>
-                <button type="button">{t("menuReviews")}</button>
-              </a>
-            </li>
-
-            <li>
-              <a href="#contacts" onClick={(e) => handleClick(e, "contacts")}>
-                <button type="button">{t("menuContact")}</button>
-              </a>
-            </li>
-          </nav>
-          <div className={styles.mobile}>
-            <GiHamburgerMenu
-              className={styles.gamburger}
-              onClick={handleClickHamburger}
-            />
-            <nav className={` ${isOpen ? styles.menu_mobile : styles.menu}`}>
-              <li>
-                <a href="#services" onClick={(e) => handleClick(e, "services")}>
-                  <button type="button">{t("menuService")}</button>
-                </a>
-              </li>
-              <li>
-                <a href="#about" onClick={(e) => handleClick(e, "about")}>
-                  <button type="button">{t("menuAboutMe")}</button>
-                </a>
-              </li> */}
-
-              {/* <li>
-                <a href="#projects" onClick={(e) => handleClick(e, "projects")}>
-                  <button type="button">{t("menuProjects")}</button>
-                </a>
-              </li> */}
-
-              {/* <li>
-                <a href="#reviews" onClick={(e) => handleClick(e, "reviews")}>
-                  <button type="button">{t("menuReviews")}</button>
-                </a>
-              </li>
-
-              <li>
-                <a href="#contacts" onClick={(e) => handleClick(e, "contacts")}>
-                  <button type="button">{t("menuContact")}</button>
-                </a>
-              </li>
-            </nav> */}
-          {/* </div> */}
+          <div className={styles.social_media}>
+            <a
+              href="https://www.facebook.com/profile.php/?id=100002520567489"
+              target="blank"
+            >
+              <FaFacebook className={styles.media} />
+            </a>
+            <a
+              href="https://www.instagram.com/iryna_derhachova?igsh=ZDE0aGMzYmZ6dXg4"
+              target="blank"
+            >
+              <FaInstagramSquare className={styles.media} />
+            </a>
+            <a href="https://t.me/dreamiren777" target="blank">
+              <BsTelegram className={styles.media} />
+            </a>
+            <a
+              href="https://youtube.com/@japanesewithiryna?si=TV6f8OoN6ILOLXG-"
+              target="blank"
+            >
+              <IoLogoYoutube className={styles.media} />
+            </a>
+          </div>
         </div>
       </header>
     </>
