@@ -26,7 +26,7 @@ const Contacts = () => {
                   honyaku.iryna@gmail.com
                 </a>
               </p>
-              <h4>{t("city")}</h4>
+              <h4>{t("spot")}</h4>
               <div className={styles.social_media}>
                 <a
                   href="https://www.facebook.com/profile.php/?id=100002520567489"
