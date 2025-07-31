@@ -29,6 +29,7 @@ const IndividualJapanese = () => {
             <h2>{t("individualText1")}</h2>
           </div>
         </section>
+        
         <section className={styles.card}>
           <div className={styles.container}>
             <h3>{t("individualOffer")}</h3>

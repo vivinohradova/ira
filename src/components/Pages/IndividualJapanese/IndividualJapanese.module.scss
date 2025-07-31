@@ -93,13 +93,16 @@
           font-size: $fz24;
         }
 
-        li {
-          font-size: $fz20;
+        ul {
+          min-width: 35%;
+          li {
+            font-size: $fz20;
 
-          .star {
-            color: $MainColor;
-            padding-right: 10px;
-            font-size: $MainSize;
+            .star {
+              color: $MainColor;
+              padding-right: 10px;
+              font-size: $MainSize;
+            }
           }
         }
       }
@@ -185,16 +188,20 @@
     .card {
       .container {
         padding: $PaddingMobile;
+
         div {
           padding: 15px;
+          flex-direction: column;
 
           p {
             font-size: $fz20;
+            text-align: center;
           }
 
           li {
             display: block;
             font-size: $MainSize;
+            text-align: start;
           }
         }
       }

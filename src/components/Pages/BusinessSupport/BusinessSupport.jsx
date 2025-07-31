@@ -6,7 +6,7 @@ import { MdOutlineSupportAgent } from "react-icons/md";
 import { IoDocumentAttachSharp } from "react-icons/io5";
 import { SiGotomeeting } from "react-icons/si";
 import { TbCloudDataConnection } from "react-icons/tb";
-// import Button from "../../Button/Button";
+import { FaNetworkWired } from "react-icons/fa";
 import WhatsAppButton from "../../WhatsAppButton/WhatsAppButton";
 import { useTranslation } from "react-i18next";
 
@@ -47,7 +47,7 @@ const BusinessSupport = () => {
             </li>
             {businessTextItem5 !== "businessTextItem5" && (
               <li>
-                <TbCloudDataConnection className={styles.icon} />
+                <FaNetworkWired className={styles.icon} />
                 {businessTextItem5}
               </li>
             )}
