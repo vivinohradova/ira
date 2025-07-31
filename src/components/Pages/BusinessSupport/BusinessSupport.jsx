@@ -8,10 +8,11 @@ import { SiGotomeeting } from "react-icons/si";
 import { TbCloudDataConnection } from "react-icons/tb";
 // import Button from "../../Button/Button";
 import WhatsAppButton from "../../WhatsAppButton/WhatsAppButton";
-import { Trans, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 const BusinessSupport = () => {
   const { t } = useTranslation();
+  const businessTextItem5 = t("businessTextItem5");
 
   return (
     <div id="main" className={styles.page}>
@@ -30,20 +31,26 @@ const BusinessSupport = () => {
           <ul>
             <li>
               <MdOutlineSupportAgent className={styles.icon} />
-              <Trans i18nKey="businessText.item1" />
+              {t("businessTextItem1")}
             </li>
             <li>
               <IoDocumentAttachSharp className={styles.icon} />
-              <Trans i18nKey="businessText.item2" />
+              {t("businessTextItem2")}
             </li>
             <li>
               <SiGotomeeting className={styles.icon} />
-              <Trans i18nKey="businessText.item3" />
+              {t("businessTextItem3")}
             </li>
             <li>
               <TbCloudDataConnection className={styles.icon} />
-              <Trans i18nKey="businessText.item4" />
+              {t("businessTextItem4")}
             </li>
+            {businessTextItem5 !== "businessTextItem5" && (
+              <li>
+                <TbCloudDataConnection className={styles.icon} />
+                {businessTextItem5}
+              </li>
+            )}
           </ul>
           <div className={styles.summari}>
             <img src={business} alt="Girls on a picnic" />
@@ -59,14 +66,15 @@ const BusinessSupport = () => {
             <img src={business2} alt="happy girl is working" />
             <p>{t("businessText3")}</p>
           </div>
-          <WhatsAppButton className={styles.button} text={t("businessButton")} />
+          <WhatsAppButton
+            className={styles.button}
+            text={t("businessButton")}
+          />
         </div>
       </section>
       <section className={styles.call}>
         <div className={styles.container}>
-          <h2>
-           {t("businessText4")}
-          </h2>
+          <h2>{t("businessText4")}</h2>
         </div>
       </section>
     </div>

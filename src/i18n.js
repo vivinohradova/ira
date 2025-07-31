@@ -8,7 +8,7 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: "ua",
+    fallbackLng: "",
     debug: true,
 
     resources: {
@@ -153,17 +153,18 @@ i18n
           individualOfferText7: "Середній",
           individualOfferText8: "Просунутий",
           individualGain: "Що ви отримаєте:",
-          individualGainText1: {
-            item1: "Швидкий прогрес та зростаюча впевненість у японській мові.",
-            item2: "Опанування граматики та лексики в реальних контекстах.",
-            item3:
-              "Читання та письмо каною, канджі та практичне спілкування (електронні листи, повідомлення).",
-            item4:
-              "Культурні знання та етикет — важливі для розуміння японської мови.",
-            item5: "Підготовка до природних розмов з носіями мови.",
-            item6:
-              "Навички орієнтування у формальних та неформальних ситуаціях, що ідеально підходить для подорожей, роботи чи повсякденного життя в Японії.",
-          },
+          individualGainTextItem1:
+            "Швидкий прогрес та зростаюча впевненість у японській мові.",
+          individualGainTextItem2:
+            "Опанування граматики та лексики в реальних контекстах.",
+          individualGainTextItem3:
+            "Читання та письмо каною, канджі та практичне спілкування (електронні листи, повідомлення).",
+          individualGainTextItem4:
+            "Культурні знання та етикет — важливі для розуміння японської мови.",
+          individualGainTextItem5:
+            "Підготовка до природних розмов з носіями мови.",
+          individualGainTextItem6:
+            "Навички орієнтування у формальних та неформальних ситуаціях, що ідеально підходить для подорожей, роботи чи повсякденного життя в Японії.",
           individualText2:
             "Готові розпочати? Напишіть мені, щоб запланувати ваш безкоштовний пробний урок, і давайте разом розпочнемо вашу японську подорож!",
           individualText3: "Не впевнені щодо свого поточного рівня японської?",
@@ -217,12 +218,12 @@ i18n
           businessMain2:
             "Я надаю комплексну підтримку та супровід бізнесу, щоб допомогти вам легко та впевнено орієнтуватися на японському ринку.",
           businessAssistance: "З моєю допомогою ви отримаєте:",
-          businessText: {
-            item1: "Послуги усного перекладу та підтримку комунікації",
-            item2: "Підготовку та перевірку документів",
-            item3: "Сприяння у проведенні ділових зустрічей та переговорів",
-            item4: "Налагодження зв'язків та допомогу з процесами",
-          },
+          businessTextItem1:
+            "Послуги усного перекладу та підтримку комунікації",
+          businessTextItem2: "Підготовку та перевірку документів",
+          businessTextItem3:
+            "Сприяння у проведенні ділових зустрічей та переговорів",
+          businessTextItem4: "Налагодження зв'язків та допомогу з процесами",
           businessText1:
             "Завдяки глибокому культурному розумінню та мовній експертизі я допоможу зробити запуск або розширення вашого бізнесу в Японії більш плавним, ефективним та безстресовим, заощаджуючи ваш час, ресурси та уникаючи потенційних непорозумінь.",
           businessText2: "Потрібно, щоб ваша команда вивчила японську?",
@@ -413,17 +414,18 @@ i18n
           individualOfferText7: "Intermediate",
           individualOfferText8: "Advanced",
           individualGain: "What you'll gain:",
-          individualGainText1: {
-            item1: "Fast progress and growing confidence in Japanese",
-            item2: "Mastery of grammar and vocabulary in real-life contexts",
-            item3:
-              "Reading and writing in kana, kanji, and practical communication (emails, messages)",
-            item4:
-              "Cultural insight and etiquette — essential for understanding the Japanese language",
-            item5: "Preparation for natural conversations with native speakers",
-            item6:
-              "Skills to navigate formal and informal situations, perfect for travel, work, or daily life in Japan",
-          },
+          individualGainTextItem1:
+            "Fast progress and growing confidence in Japanese",
+          individualGainTextItem2:
+            "Mastery of grammar and vocabulary in real-life contexts",
+          individualGainTextItem3:
+            "Reading and writing in kana, kanji, and practical communication (emails, messages)",
+          individualGainTextItem4:
+            "Cultural insight and etiquette — essential for understanding the Japanese language",
+          individualGainTextItem5:
+            "Preparation for natural conversations with native speakers",
+          individualGainTextItem6:
+            "Skills to navigate formal and informal situations, perfect for travel, work, or daily life in Japan",
           individualText2:
             "Ready to begin? Message me to schedule your free trial lesson and let’s start your Japanese journey together!",
           individualText3: "Not sure about your current Japanese level?",
@@ -476,12 +478,10 @@ i18n
           businessMain2:
             "I provide comprehensive business support and accompaniment services to help you navigate the Japanese market with ease and confidence.",
           businessAssistance: "With my assistance, you will receive:",
-          businessText: {
-            item1: "Interpreting and communication support",
-            item2: "Document preparation and review",
-            item3: "Business meeting and negotiation facilitation",
-            item4: "Connection-building and process guidance",
-          },
+          businessTextItem1: "Interpreting and communication support",
+          businessTextItem2: "Document preparation and review",
+          businessTextItem3: "Business meeting and negotiation facilitation",
+          businessTextItem4: "Connection-building and process guidance",
           businessText1:
             "With deep cultural insight and linguistic expertise, I’ll help make your business launch or expansion in Japan smoother, more efficient, and stress-free — saving you time, resources, and avoiding potential misunderstandings.",
           businessText2: "Need your team to learn Japanese?",
@@ -540,13 +540,13 @@ i18n
 
           close: "近い",
 
-          mainName: "翻訳者及び通訳者 イリーナ・デルガチョワ",
+          mainName: "イリーナ・デルガチョワ",
           mainText:
-            "高品質のウクライナ語から日本語へ、日本語からウクライナ語への通訳や翻訳、または英語、ロシア語の通訳や翻訳を格安で提供しております。",
+            "日本での6年以上の滞在・就労経験を持つ、日本語、英語、ウクライナ語、ロシア語の通訳者、ビ ジネスコンサルタント、講師。",
           getConsultation: "ご予約・お問い合わせ",
           serviceText:
             "丁寧で自然な正しい日本語⇔ウクライナ語、日本語⇔英語、日本語⇔ロシア語の翻訳・通訳を格安で提供しております。",
-          card1: "翻訳",
+          card1: "個人英語レッスン",
 
           general: "一般文書",
           IT: "IT",
@@ -555,7 +555,7 @@ i18n
           legal: "法律・契約",
           publishingHouse: "出版翻訳",
 
-          card2: "通訳（逐次通訳）",
+          card2: "グループ英語レッスン",
           details: "さらに詳しく",
           online: "オンライン",
           interview: "インタビューや取材など",
@@ -564,12 +564,12 @@ i18n
           negotiations: "政治交渉",
           conversation: "一般の話",
 
-          card3: "現地で",
+          card3: "外国人とのビジネス企業支援",
           television: "テレビ、ラジオ、SNS",
           socialProjects: "ソーシャルプロジェクト",
           accompanying: "同行通訳",
 
-          card4: "映像翻訳",
+          card4: "日本語、英語、ウクライナ語、ロシア語の通訳・翻訳",
           subtitles: "字幕翻訳",
           transcription: "文字起こし",
           voicing: "吹き替え翻訳",
@@ -582,9 +582,9 @@ i18n
 
           aboutMeTitle: "私について",
           aboutMe:
-            "<0>はじめまして、イリーナ・デルガチョワと申します。2014 年から日本語、英語、ウクライナ語、ロシア語の翻訳者および通訳者として活動しています。一般翻訳、法律翻訳、医療翻訳、科学翻訳、社会翻訳、ビジネス翻訳の経験があります。 通訳と書面翻訳の両方を提供しています。 ウクライナの 2 つの大学を卒業しました。スコヴォロダ記念ハルキウ国立教育大学（学士）です。 そして、タラス・シェフチェンコ記念キーウ国立大学（修士）です。日本語、英語の翻訳を専攻していました。 私は日本語能力試験N1（最上級）の証明書を持っています。<p>キーウ市で行われた日本語スピーチコンテストで優勝し、そのおかげで2015年に国際交流基金（大阪）の研修プログラムで初めて日本に行くことができました。</p><p>2016年から2018年まで、私はドラホマノフ州立大学で日本語講師として働いていました。</p><p>2019年から日本にある名古屋専門学校の留学生支援室で教職員として働いていました。</p></0>",
+            "<0>イリーナ・デルガチョワと申します。日本での6年間の滞在・就労経験を含む、11年以上のキャリ アを持つ日本語、英語、ウクライナ語、ロシア語のプロ通訳者、講師、ビジネスコンサルタントで す。<p>起業家や企業の皆様が、外国人とのビジネスや海外志向の事業を成功裏に立ち上げ、発展させ るお手伝いをしています。 最初のコンタクトから本格的な事業拡大まで、皆様の目標に合わせた オーダーメイドのサポートを提供し、円滑なコミュニケーションプロセスを実現します。</p><p>情熱的な教育者として、私は学習者の皆様が英語を習得する道のりを、明確に、効果的に、そし て楽しくガイドします。私が皆様をサポートするのは、英語でのコミュニケーションをスムーズかつ 楽に習得し、学習、仕事、人間関係構築といったあらゆる目標のために英語を使いこなせるよう になることです。</p><p>TOEIC試験の準備をしている方、海外への旅行を計画している方、あるいはより深い文化的な つながりを求めている方、どのような方でも私が一歩一歩サポートします。法人向けの英語レッ スンも提供しています。</p><p>外国人とのコミュニケーションを含むお仕事を円滑かつシームレスにするため、日本語、英語、ウ クライナ語、ロシア語の翻訳サービスを提供しています。一般、法律、医療分野での専門通訳 サービスを提供し、ストレスなく円滑なコミュニケーションを保証します。 </p></0>",
           aboutMe2:
-            "<0><p>2020年5月から2021年7月まで、日本のIT企業Demand-Linkで翻訳者兼Webデザイナーとして働いていました。</p><p>2022年から日本の翻訳会社であるラインゲート、サンフレア、インターグループ、フランシールと協力してきました。 TBSチャンネルの国際報道部で働いていました。 さらに、NPOクライヤニー、CINGA、FRJ、アルペ難民センター、みなと国際協会（MIA）などのNGOや難民支援団体の翻訳も担当しています。 翻訳と人々とのコミュニケーションにおいて豊富な経験があります。</p><p>2023年にはボランティアで日本語を教えるチャリティープロジェクト「日本語とハート」を立ち上げました。 ウクライナ文化の普及に携わっており、特にウクライナ料理の作り方とクロスステッチ刺繍を教えています。 感情的知性トレーナーの資格と第 2 級レイキエネルギーヒーリングの資格を持っています。</p></0>",
+            "<0><p>どのサービスについても30分間の無料コンサルテーションをご提供しています。下記の連絡先情 報からお気軽にお問い合わせください。</p></0>",
 
           projectTextEng:
             "地球市民になるための英語“English for Earth Citizen”。海外旅行、海外の仕事、外国人との交流、国際業務、インタナショナルプロジェクト、海外への配信、国際起業家のための英語のレッスンです。ご興味をお持ちの方は お問い合わせください。",
@@ -645,6 +645,139 @@ i18n
           send: "送信",
 
           top: "PAGETOP",
+
+          individualMainText:
+            "「英語を楽に学び、自信を持って、学習、仕事、人間関係構築といったあらゆる目標のために英 語を使いこなしたい。」そうお考えではありませんか？",
+          individualMainText2: "私が皆様をサポートします！",
+          individualText1:
+            "私の無料30分体験レッスンをぜひお試しください。私の指導スタイルを知り、ご質問いただ き、皆様の学習目標達成に私が最適かどうかをご確認いただけます。",
+          individualOffer: "提供サービス",
+          individualOffer1:
+            "プライベート・オンラインレッスン（ご希望のレッスン時間をお選びいただけます）：",
+          individualOfferText1: "60 分",
+          individualOfferText2: "90 分",
+          individualOffer2:
+            "レッスンの頻度は、目標とスケジュールに合わせて柔軟に対応いたします。",
+          individualOfferText3: "週1回",
+          individualOfferText4: "週2回",
+          individualOfferText5: "週3回（集中的な学習にはこれ以上も可能です）",
+          individualOffer3: "対応レベル",
+          individualOfferText6: "初級",
+          individualOfferText7: "中級",
+          individualOfferText8: "上級",
+          individualGain: "あなたが得られるもの",
+          individualGainTextItem1: "英語力の着実な進歩と自信の向上。",
+          individualGainTextItem2: "実生活に即した文脈で、文法と語彙を習得。",
+          individualGainTextItem3:
+            "TOEIC、TOEFLなどの試験対策に特化した、実践的な読解力とリスニング力を養成。",
+          individualGainTextItem4:
+            "ネイティブスピーカーとの自然な会話に必要な表現力と理解力を準備。",
+          individualGainTextItem5:
+            "学習、仕事、海外での交流など、様々な目標に対応できる英語スキル。",
+          individualText2:
+            "さあ、始めましょう！無料体験レッスンのご予約はメッセージでご連絡ください。一緒に英語学習 の旅をスタートさせましょう！",
+          individualText3: "現在の英語レベルがわからない？",
+          individualText4:
+            "ご心配はいりません！レベルチェック専用レッスンをご用意しています。あなたのスキルを評価 し、あなただけのパーソナライズされた学習プランを作成します。",
+          individualText5: "TOEIC・TOEFL対策",
+          individualText6:
+            "私は、TOEICやTOEFLなどの英語試験で目標スコア達成を目指す生徒様を数多く指導してきま した。",
+
+          individualText8:
+            "構造化されたレッスンと幅広い練習問題を通じて、試験当日には自信を持って、しっかり準備が できた状態で臨めるようになります。そして、その知識を個人的および仕事上の目標達成に役立 てる準備が整うでしょう。",
+          individualText9: "その他のレッスン形式",
+          individualText10: "少人数制グループ・レッスン（ミニグループ）",
+          individualText11: "4〜5名のミニグループで学習します。",
+          individualText12: "企業向け研修",
+          individualText13:
+            "社員の方々に効率的かつプロフェッショナルな英語学習をサポートしたい企業様に最適です。",
+          individualButton: "詳細はお問い合わせください。",
+
+          groupMain:
+            "私が提供するオンラインのグループ英語レッスンは、言語学習を楽しく、体系的に、そしてコミュ ニティ志向で行えるようデザインされています。.",
+          groupLevelText: "クラスはレベル別に構成されています。",
+          groupLevel: {
+            item1: "初級",
+            item2: "準中級",
+            item3: "中級",
+          },
+          groupText1:
+            "常に同じようなスキルや目標を持つ方々と一緒に学習できます。",
+          groupText2:
+            "私のグループレッスンでは、文法や語彙を学ぶだけでなく、さらに踏み込んだ内容も扱います。 英語圏の文化、エチケット、慣習に関する重要な洞察も取り入れます。これらは、留学、仕事、あ るいは海外での生活を計画している方にとって不可欠な知識です。",
+          groupText3:
+            "レッスンの雰囲気は、温かく、包容力があり、励まし合いながら学べる環境です。生徒一人ひとり に個別の注意を払い、追加練習や個別の課題をいつでもリクエストできます。",
+          groupText4:
+            "グループレッスンには、TOEICやTOEFLなどの英語試験対策として、実績のある教材と戦略を 用いた体系的な準備も含まれています。",
+          groupText5: "グループ学習が自分に合っているか不安ですか？",
+          groupText6:
+            "無料の30分体験レッスンをリクエストして、レッスンの形式を体験し、空き状況を確認し、あなたに とって最適な学習方法を見つけてください。",
+          groupText7: "企業様向け",
+          groupText8:
+            "もし御社が社員の方々に英語を学ばせたいとお考えでしたら、ぜひご相談ください。",
+          groupText9:
+            "貴社のビジネスニーズに合わせてカスタマイズされた企業向け語学研修プログラムを提供してい ます。詳細についてはお気軽にお問い合わせください。",
+          groupText10: "個人レッスンをご希望ですか？",
+          groupText11:
+            "個人レッスンも提供しており、急速な上達を目指せるよう設計されています。仕事、留学、または 海外移住のために英語が必要な方に最適です。",
+
+          businessMain:
+            "外国人従業員やクライアントとのビジネスを日本で立ち上げたり、拡大したりするご予定です か？",
+          businessMain2:
+            "私は、皆様が日本市場をスムーズかつ自信を持って開拓できるよう、包括的なビジネスサポート と伴走サービスを提供いたします。",
+          businessAssistance: "私のサポートにより、以下を提供します。",
+          businessTextItem1: "外国人材の採用支援",
+          businessTextItem2: "外国人チームとの円滑なコミュニケーション構築",
+          businessTextItem3: "通訳およびコミュニケーション支援",
+          businessTextItem4: "商談・交渉の円滑化",
+          businessTextItem5: "人脈構築および手続きガイダンス",
+          businessText1:
+            "深い文化理解と語学の専門知識を活かし、皆様の日本でのビジネス立ち上げや事業拡大が、よ りスムーズで、効率的で、ストレスのないものになるようお手伝いします。これにより、時間とリ ソースを節約し、潜在的な誤解を避けることができます。",
+          businessText2: "チームに日本語を学ばせる必要はありませんか？",
+          businessText3:
+            "貴社の外国人チームが日本語を習得し、日本文化を理解し、日本社会にスムーズに溶け込める よう、企業向けにカスタマイズされた日本語レッスンも提供しています。",
+          businessButton:
+            "以下のフォームまたは連絡先からお気軽にお問い合わせください。",
+          businessText4:
+            "日本でのビジネスジャーニーを私がどのようにサポートできるか、無料の30分コンサルテーション をご予約ください。",
+
+          translationMain: "専門通訳サービス",
+          translationText:
+            "私は、日本語、英語、ウクライナ語、ロシア語を用いて、幅広い分野で専門的な通訳サービスを 提供しています。",
+          translationInterpretation: {
+            item1: "一般通訳",
+            item2:
+              " メディアインタビュー、会議、文化交流、旅行、個人的なコミュニケーションなど、日常生活 における様々な場面で対応します。",
+            item3: "ビジネス通訳",
+            item4:
+              "企業間やパートナーとのビジネス交渉、会議、プレゼンテーション、議論などをサポートし ます。",
+            item5: "法律通訳",
+            item6:
+              "法律相談、入国管理局での手続き、裁判、契約交渉などでの支援を行います。",
+            item7: "医療通訳",
+            item8:
+              "病院、診療所、健康相談などでの通訳を通じて、健康に関する重要な会話において明確 さ、安心感、正確性を確保します。",
+          },
+          translationText1:
+            "通訳は、お客様のニーズと場所に応じて、対面またはオンラインで提供可能です。イベント、訪 問、アポイントメントなど、現地でのサポートが必要な場合には、アテンド通訳も承ります。",
+          translationText2: "翻訳サービス",
+          translationText3:
+            "また、幅広いトピックや種類の文書について、文書翻訳サービスを提供しています。",
+          translationText4: {
+            item1: "文学作品や芸術作品の翻訳、クリエイティブプロジェクトの翻訳",
+            item2: "医療記録・指示書",
+            item3: "Eメール、手紙、個人的な通信",
+            item4: "教育資料・プレゼンテーション",
+            item5: "ウェブサイト・販促コンテンツ",
+            item6: "動画の字幕・文字起こし",
+          },
+          translationText5:
+            "すべての翻訳は、正確性と細心の注意を払って行われます。日本語から英語、または英語、ウク ライナ語、ロシア語から日本語への翻訳を問わず、正確さを保証しつつ、トーン、スタイル、文化 的関連性を保持します。",
+          translationText6: "日本でのコミュニケーションでお困りですか？",
+          translationText7:
+            "あなたのメッセージが明確に、プロフェッショナルに、そして文化的な配慮をもって確実に伝わる ようお手伝いします。",
+          translationText8:
+            "無料の30分コンサルテーションのために、今すぐご連絡ください！",
         },
       },
       ru: {
@@ -788,20 +921,22 @@ i18n
           individualOfferText7: "Средний",
           individualOfferText8: "Продвинутый",
           individualGain: "Что вы получите:",
-          individualGainText1: {
-            item1: "Быстрый прогресс и растущая уверенность в японском языке.",
-            item2: "Освоение грамматики и лексики в реальных контекстах.",
-            item3:
-              "Чтение и письмо каной, кандзи и практическое общение (электронные письма, сообщения).",
-            item4:
-              "Культурные знания и этикет — важные для понимания японского языка.",
-            item5: "Подготовка к естественным разговорам с носителями языка.",
-            item6:
-              "Навыки ориентирования в формальных и неформальных ситуациях, что идеально подходит для путешествий, работы или повседневной жизни в Японии.",
-          },
+          individualGainTextItem1:
+            "Быстрый прогресс и растущая уверенность в японском языке.",
+          individualGainTextItem2:
+            "Освоение грамматики и лексики в реальных контекстах.",
+          individualGainTextItem3:
+            "Чтение и письмо каной, кандзи и практическое общение (электронные письма, сообщения).",
+          individualGainTextItem4:
+            "Культурные знания и этикет — важные для понимания японского языка.",
+          individualGainTextItem5:
+            "Подготовка к естественным разговорам с носителями языка.",
+          individualGainTextItem6:
+            "Навыки ориентирования в формальных и неформальных ситуациях, что идеально подходит для путешествий, работы или повседневной жизни в Японии.",
           individualText2:
             "Готовы начать? Напишите мне, чтобы запланировать ваш бесплатный пробный урок, и давайте вместе начнем ваше японское путешествие!",
-          individualText3: "Не уверены насчет своего текущего уровня японского?",
+          individualText3:
+            "Не уверены насчет своего текущего уровня японского?",
           individualText4:
             "Без проблем! Я предлагаю специальный урок для определения уровня, чтобы оценить ваши навыки и создать персонализированный план обучения именно для вас.",
           individualText5:
@@ -852,12 +987,11 @@ i18n
           businessMain2:
             "Я оказываю комплексную поддержку и сопровождение бизнеса, чтобы помочь вам легко и уверенно ориентироваться на японском рынке.",
           businessAssistance: "С моей помощью вы получите:",
-          businessText: {
-            item1: "Услуги устного перевода и поддержку коммуникации",
-            item2: "Подготовку и проверку документов",
-            item3: "Содействие в проведении деловых встреч и переговоров",
-            item4: "Налаживание связей и помощь с процессами",
-          },
+          businessTextItem1: "Услуги устного перевода и поддержку коммуникации",
+          businessTextItem2: "Подготовку и проверку документов",
+          businessTextItem3:
+            "Содействие в проведении деловых встреч и переговоров",
+          businessTextItem4: "Налаживание связей и помощь с процессами",
           businessText1:
             "Благодаря глубокому культурному пониманию и языковой экспертизе я помогу сделать запуск или расширение вашего бизнеса в Японии более плавным, эффективным и комфортным, экономя ваше время, ресурсы и избегая потенциальных недоразумений.",
           businessText2: "Нужно, чтобы ваша команда выучила японский?",
@@ -891,7 +1025,8 @@ i18n
           translationText3:
             "Я также предлагаю услуги письменного перевода по широкому кругу тем и типов документов, включая:",
           translationText4: {
-            item1: "Литература и искусство: перевод произведений и творческих проектов.",
+            item1:
+              "Литература и искусство: перевод произведений и творческих проектов.",
             item2: "Медицинские записи и инструкции",
             item3: "Электронные письма, письма и личная переписка",
             item4: "Учебные материалы и презентации",

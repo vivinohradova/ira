@@ -4,11 +4,12 @@ import { IoIosJournal } from "react-icons/io";
 import { IoBulbOutline } from "react-icons/io5";
 // import Button from "../../Button/Button";
 import ButtonMore from "../../ButtonMore/ButtonMore";
-import WhatsAppButton from '../../WhatsAppButton/WhatsAppButton';
-import { Trans, useTranslation } from "react-i18next";
+import WhatsAppButton from "../../WhatsAppButton/WhatsAppButton";
+import { useTranslation } from "react-i18next";
 
 const IndividualJapanese = () => {
   const { t } = useTranslation();
+  const individualGainTextItem6 = t("individualGainTextItem6");
 
   return (
     <>
@@ -88,28 +89,30 @@ const IndividualJapanese = () => {
               <ul>
                 <li>
                   <FaStar className={styles.star} />
-                  <Trans i18nKey="individualGainText1.item1" />
+                  {t("individualGainTextItem1")}
                 </li>
                 <li>
                   <FaStar className={styles.star} />
-                  <Trans i18nKey="individualGainText1.item2" />
+                  {t("individualGainTextItem2")}
                 </li>
                 <li>
                   <FaStar className={styles.star} />
-                  <Trans i18nKey="individualGainText1.item3" />
+                  {t("individualGainTextItem3")}
                 </li>
                 <li>
                   <FaStar className={styles.star} />
-                  <Trans i18nKey="individualGainText1.item4" />
+                  {t("individualGainTextItem4")}
                 </li>
                 <li>
                   <FaStar className={styles.star} />
-                  <Trans i18nKey="individualGainText1.item5" />
+                 {t("individualGainTextItem5")}
                 </li>
-                <li>
-                  <FaStar className={styles.star} />
-                  <Trans i18nKey="individualGainText1.item6" />
-                </li>
+                {individualGainTextItem6 !== "individualGainTextItem6" && (
+                  <li>
+                    <FaStar className={styles.star} />
+                    {t("individualGainTextItem6")}
+                  </li>
+                )}
               </ul>
             </div>
           </div>
