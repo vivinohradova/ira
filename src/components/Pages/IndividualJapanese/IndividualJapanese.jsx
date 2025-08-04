@@ -8,7 +8,7 @@ import WhatsAppButton from "../../WhatsAppButton/WhatsAppButton";
 import { useTranslation } from "react-i18next";
 
 const IndividualJapanese = () => {
-  const { t } = useTranslation();
+  const { i18n, t } = useTranslation();
   const individualGainTextItem6 = t("individualGainTextItem6");
 
   return (
@@ -29,7 +29,7 @@ const IndividualJapanese = () => {
             <h2>{t("individualText1")}</h2>
           </div>
         </section>
-        
+
         <section className={styles.card}>
           <div className={styles.container}>
             <h3>{t("individualOffer")}</h3>
@@ -106,7 +106,7 @@ const IndividualJapanese = () => {
                 </li>
                 <li>
                   <FaStar className={styles.star} />
-                 {t("individualGainTextItem5")}
+                  {t("individualGainTextItem5")}
                 </li>
                 {individualGainTextItem6 !== "individualGainTextItem6" && (
                   <li>
@@ -128,22 +128,26 @@ const IndividualJapanese = () => {
             <h2> {t("individualText5")}</h2>
             <ul>
               {t("individualText6")}
-              <li>
-                <IoIosJournal className={styles.icon} />
-                N5
-              </li>
-              <li>
-                <IoIosJournal className={styles.icon} />
-                N4
-              </li>
-              <li>
-                <IoIosJournal className={styles.icon} />
-                N3
-              </li>
-              <li>
-                <IoIosJournal className={styles.icon} />
-                N2 ( {t("individualText7")})
-              </li>
+              {i18n.language !== "jp" && (
+                <>
+                  <li>
+                    <IoIosJournal className={styles.icon} />
+                    N5
+                  </li>
+                  <li>
+                    <IoIosJournal className={styles.icon} />
+                    N4
+                  </li>
+                  <li>
+                    <IoIosJournal className={styles.icon} />
+                    N3
+                  </li>
+                  <li>
+                    <IoIosJournal className={styles.icon} />
+                    N2 ({t("individualText7")})
+                  </li>
+                </>
+              )}
             </ul>
             <p>{t("individualText8")}</p>
 
