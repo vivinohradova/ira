@@ -64,8 +64,9 @@
       .right,
       .left {
         display: flex;
-        align-items: center;
+        text-align: justify;
         justify-content: space-between;
+        align-items: center;
 
         .image {
           max-width: 400px;
@@ -182,7 +183,7 @@
           }
 
           h3 {
-            text-align: center;
+            text-align: justify;
           }
         }
       }
@@ -248,7 +249,6 @@
           flex-direction: column;
 
           h3 {
-            text-align: center;
             padding: 3% 0;
           }
         }
