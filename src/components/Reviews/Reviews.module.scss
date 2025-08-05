@@ -10,10 +10,16 @@
     .card_container {
       display: flex;
       flex-direction: column;
+      gap: 10px;
       align-items: center;
-      justify-content: center;
       margin-bottom: $MSections;
       transition: transform 0.8s ease-in-out;
+
+      .cards{
+        display: flex;
+        justify-content: center;
+
+      }
       .buttons {
         .button {
           padding: 5px 10px;
@@ -43,21 +49,34 @@
   .reviews {
     .container {
       width: 100%;
+      
+
+      .card_container {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+      }
     }
   }
 }
 
 //  Tablet SD
-@media screen and (min-width: 521px) and (max-width: 768px) {
+@media screen and (min-width: 521px) and (max-width: 800px) {
   .reviews {
     .container {
       width: 100%;
+
+      .card_container {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+      }
     }
   }
 }
 
 // Tablet HD
-@media screen and (min-width: 769px) and (max-width: 1350px) {
+@media screen and (min-width: 801px) and (max-width: 1350px) {
   .reviews {
     .container {
       width: 100%;

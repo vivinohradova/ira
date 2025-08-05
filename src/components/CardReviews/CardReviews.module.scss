@@ -4,11 +4,14 @@
 .card_reviews {
   display: flex;
   flex-direction: column;
-  width: 80%;
-  height: 85%;
+  width: 40%;
+  min-height: 85%;
   padding: 15px;
-  margin: 20px 0;
+  margin: 20px;
   background: $Background;
+  border-radius: 10px;
+  border: 1px solid $Grey;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
 
   .name {
     color: $MainColor;
@@ -23,13 +26,31 @@
 
   .question_answer {
     margin: 15px 0;
+
     li {
       list-style: none;
-      padding: 10px 0;
+      padding: 10px;
+      background-color: $BackgroundPink;
+      margin: 10px;
+      border-radius: 10px;
 
       p {
         margin-bottom: 10px;
       }
     }
+  }
+}
+
+// Mobile
+@media screen and (max-width: 520px) {
+  .card_reviews {
+    width: 90%;
+  }
+}
+
+//  Tablet SD
+@media screen and (min-width: 521px) and (max-width: 800px) {
+  .card_reviews {
+    width: 80%;
   }
 }

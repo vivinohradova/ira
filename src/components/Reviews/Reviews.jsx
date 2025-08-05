@@ -39,6 +39,8 @@ const Reviews = () => {
   const { t } = useTranslation();
   const [activeCardIndex, setActiveCardIndex] = useState(0);
   const [autoSwitchEnabled, setAutoSwitchEnabled] = useState(true);
+  // const [currentIndex, setCurrentIndex] = useState(0);
+  const [cardsPerView, setCardsPerView] = useState(1);
   const intervalRef = useRef(null);
 
   const translatedUsersData = usersData.map((user) => ({
@@ -52,8 +54,8 @@ const Reviews = () => {
   useEffect(() => {
     if (autoSwitchEnabled) {
       intervalRef.current = setInterval(() => {
-        setActiveCardIndex((prevIndex) =>
-          prevIndex < translatedUsersData.length - 1 ? prevIndex + 1 : 0
+        setActiveCardIndex(
+          (prevIndex) => (prevIndex + cardsPerView) % translatedUsersData.length
         );
       }, 5000);
     } else {
@@ -61,22 +63,39 @@ const Reviews = () => {
     }
 
     return () => clearInterval(intervalRef.current);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [autoSwitchEnabled]);
+  }, [autoSwitchEnabled, cardsPerView, translatedUsersData.length]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setCardsPerView(window.innerWidth >= 801 ? 2 : 1);
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const handlePrevClick = () => {
-    setActiveCardIndex((prevIndex) =>
-      prevIndex > 0 ? prevIndex - 1 : translatedUsersData.length - 1
-    );
+    setActiveCardIndex((prevIndex) => {
+      const newIndex = prevIndex - cardsPerView;
+      return newIndex >= 0
+        ? newIndex
+        : translatedUsersData.length - cardsPerView;
+    });
     setAutoSwitchEnabled(false);
   };
 
   const handleNextClick = () => {
-    setActiveCardIndex((nextIndex) =>
-      nextIndex < translatedUsersData.length - 1 ? nextIndex + 1 : 0
-    );
+    setActiveCardIndex((nextIndex) => {
+      const newIndex = nextIndex + cardsPerView;
+      return newIndex < translatedUsersData.length ? newIndex : 0;
+    });
     setAutoSwitchEnabled(false);
   };
+
+  const visibleCards = translatedUsersData.slice(
+    activeCardIndex,
+    activeCardIndex + cardsPerView
+  );
 
   return (
     <>
@@ -84,7 +103,11 @@ const Reviews = () => {
         <div className={styles.container}>
           <h2>{t("menuReviews")}</h2>
           <div className={styles.card_container}>
-            <CardReviews {...translatedUsersData[activeCardIndex]} />
+          <div className={styles.cards}>
+            {visibleCards.map((cardData, idx) => (
+              <CardReviews key={cardData.id} {...cardData} />
+            ))}</div>
+
             <div className={styles.buttons}>
               <FaAngleDoubleLeft
                 className={styles.button}
