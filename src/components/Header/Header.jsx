@@ -2,7 +2,7 @@ import logo from "../../assets/images/logo.png";
 import { useLanguage } from "../LanguageContext";
 import scrollToElement from "../ScrollUtils/ScrollUtils";
 import styles from "./Header.module.scss";
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 import { FaFacebook, FaInstagramSquare } from "react-icons/fa";
 import { BsTelegram } from "react-icons/bs";
@@ -10,7 +10,7 @@ import { IoLogoYoutube } from "react-icons/io";
 
 const Header = () => {
   const { language, changeLanguage } = useLanguage();
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
   const [selectedLanguage, setSelectedLanguage] = useState("language");
   const [isOpen, setIsOpen] = useState(false);
@@ -19,12 +19,12 @@ const Header = () => {
     setSelectedLanguage(language);
   }, [language]);
 
-  const languages = ["en", "jp", "ua", "ru"];
+  const languages = ["en", "ja", "ua", "ru"];
 
   const handleClick = (e, targetId) => {
     e.preventDefault();
     scrollToElement(targetId);
-    setIsOpen(false);
+    // setIsOpen(false);
   };
 
   return (
