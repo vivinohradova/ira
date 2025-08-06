@@ -2,7 +2,7 @@ import logo from "../../assets/images/logo.png";
 import { useLanguage } from "../LanguageContext";
 import scrollToElement from "../ScrollUtils/ScrollUtils";
 import styles from "./Header.module.scss";
-// import { useTranslation } from "react-i18next";
+import i18n from "i18next";
 import { useEffect, useState } from "react";
 import { FaFacebook, FaInstagramSquare } from "react-icons/fa";
 import { BsTelegram } from "react-icons/bs";
@@ -10,10 +10,10 @@ import { IoLogoYoutube } from "react-icons/io";
 
 const Header = () => {
   const { language, changeLanguage } = useLanguage();
-  // const { t } = useTranslation();
 
-  const [selectedLanguage, setSelectedLanguage] = useState("language");
-  const [isOpen, setIsOpen] = useState(false);
+  const [selectedLanguage, setSelectedLanguage] = useState(
+    i18n.language || "en"
+  );
 
   useEffect(() => {
     setSelectedLanguage(language);
@@ -24,14 +24,17 @@ const Header = () => {
   const handleClick = (e, targetId) => {
     e.preventDefault();
     scrollToElement(targetId);
-    // setIsOpen(false);
   };
 
   return (
     <>
       <header>
         <div className={styles.container}>
-          <a href="#main" className={styles.logoWrapp} onClick={(e) => handleClick(e, "main")}>
+          <a
+            href="#main"
+            className={styles.logoWrapp}
+            onClick={(e) => handleClick(e, "main")}
+          >
             <img className={styles.logo} src={logo} alt="logo" />
           </a>
           <div>
