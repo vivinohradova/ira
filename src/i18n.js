@@ -14,6 +14,10 @@ i18n
     resources: {
       ua: {
         translation: {
+          pageTitle: "Japanese With Iryna — Перекладач японської мови",
+          metaDescription:
+            "Професійний переклад з японської та японської мови. Усний та письмовий переклад, спілкування з клієнтами з Японії.",
+
           menuService: "Послуги",
           menuAboutMe: "Про мене",
           menuReviews: "Відгуки",
@@ -174,7 +178,7 @@ i18n
             "Підготовка до JLPT (Іспит з визначення рівня володіння японською мовою)",
           individualText6:
             "Маю великий досвід успішної підготовки студентів до наступних рівнів JLPT:",
-          
+
           individualText7: "часто вимагається для роботи в Японії",
           individualText8:
             "Завдяки структурованим урокам та широкому спектру практичних матеріалів ви почуватиметеся впевнено та добре підготовленими в день іспиту — і будете готові застосувати свої знання для досягнення особистих та професійних цілей.",
@@ -276,6 +280,10 @@ i18n
       },
       en: {
         translation: {
+          pageTitle: "Japanese With Iryna — Japanese Translator",
+          metaDescription:
+            "Professional translation from and into Japanese. Interpreting, documents, and communication with Japanese clients.",
+
           menuService: "Services",
           menuAboutMe: "About me",
           menuReviews: "Reviews",
@@ -531,8 +539,11 @@ i18n
             "Contact me today for a free 30-minute consultation!",
         },
       },
-      jp: {
+      ja: {
         translation: {
+          pageTitle: "",
+          metaDescription: "",
+
           menuService: "サービス",
           menuAboutMe: "私について",
           menuReviews: "お客様の声",
@@ -782,6 +793,10 @@ i18n
       },
       ru: {
         translation: {
+          pageTitle: "Japanese With Iryna — Переводчик японского языка",
+          metaDescription:
+            "Профессиональный перевод с японского и на японский язык. Устный и письменный перевод, общение с клиентами из Японии.",
+
           menuService: "Услуги",
           menuAboutMe: "Обо мне",
           menuReviews: "Отзывы",
