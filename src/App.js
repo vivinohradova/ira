@@ -14,13 +14,13 @@ import GroupJapanese from "./components/Pages/GroupJapanese/GroupJapanese";
 import IndividualJapanese from "./components/Pages/IndividualJapanese/IndividualJapanese";
 import Translation from "./components/Pages/Translation/Translation";
 import ScrollToTop from "./components/ScrollToTop";
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 function App() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   return (
     <>
-     <Helmet>
+     <Helmet htmlAttributes={{ lang: i18n.language }}>
         <title>{t('pageTitle')}</title>
         <meta name="description" content={t('metaDescription')} />
         <meta property="og:title" content={t('pageTitle')} />
