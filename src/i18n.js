@@ -541,8 +541,9 @@ i18n
       },
       ja: {
         translation: {
-          pageTitle: "",
-          metaDescription: "",
+          pageTitle: "Japanese With Iryna — 英語翻訳者",
+          metaDescription:
+            "英語から日本語、日本語から英語へのプロフェッショナルな翻訳サービス。通訳と文書翻訳、外国人とのコミュニケーションサポート。",
 
           menuService: "サービス",
           menuAboutMe: "私について",
