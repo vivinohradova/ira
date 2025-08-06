@@ -108,7 +108,7 @@ const IndividualJapanese = () => {
                   <FaStar className={styles.star} />
                   {t("individualGainTextItem5")}
                 </li>
-                {individualGainTextItem6 !== "individualGainTextItem6" && (
+                {i18n.language !== "ja" && (
                   <li>
                     <FaStar className={styles.star} />
                     {t("individualGainTextItem6")}
@@ -128,7 +128,7 @@ const IndividualJapanese = () => {
             <h2> {t("individualText5")}</h2>
             <ul>
               {t("individualText6")}
-              {i18n.language !== "jp" && (
+              {i18n.language !== "ja" && (
                 <>
                   <li>
                     <IoIosJournal className={styles.icon} />
