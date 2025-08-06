@@ -17,7 +17,10 @@ import ScrollToTop from "./components/ScrollToTop";
 import { Helmet } from 'react-helmet-async';
 
 function App() {
-  const { t, i18n } = useTranslation();
+  const { t, i18n, ready } = useTranslation();
+
+   if (!ready) return <div>Loading...</div>;
+   
   return (
     <>
      <Helmet htmlAttributes={{ lang: i18n.language }}>
