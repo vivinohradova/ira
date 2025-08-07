@@ -39,7 +39,6 @@ const Reviews = () => {
   const { t } = useTranslation();
   const [activeCardIndex, setActiveCardIndex] = useState(0);
   const [autoSwitchEnabled, setAutoSwitchEnabled] = useState(true);
-  // const [currentIndex, setCurrentIndex] = useState(0);
   const [cardsPerView, setCardsPerView] = useState(1);
   const intervalRef = useRef(null);
 
