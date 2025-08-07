@@ -20,7 +20,7 @@ const Translation = () => {
       <div id="main" className={styles.page}>
         <section className={styles.interpretation}>
           <div className={styles.container}>
-            <ButtonMore link={"/"} text={"Home"} />
+           <ButtonMore link={"/"} text={t("homeButton")} />
             <h2 className={styles.title}>{t("translationMain")}</h2>
             <p className={styles.text}>{t("translationText")}</p>
             <ul>

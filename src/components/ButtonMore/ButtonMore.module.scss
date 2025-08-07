@@ -12,7 +12,12 @@
   text-align: center;
 
   &:hover {
-border: 1px solid $HoverColor;
-box-shadow: 0 0 5px $HoverColor;
+    border: 3px solid $HoverColor;
+    box-shadow: 0 0 5px $HoverColor;
+  }
+
+  &:active {
+    background-color: $ActiveColor;
+    box-shadow: inset 0 2px 5px 0 $Shadow;
   }
 }

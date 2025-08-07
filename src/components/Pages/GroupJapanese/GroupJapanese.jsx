@@ -20,7 +20,7 @@ const GroupJapanese = () => {
     <div id="main" className={styles.page}>
       <section className={styles.headline}>
         <div className={styles.container}>
-          <ButtonMore link={"/"} text={"Home"} />
+         <ButtonMore link={"/"} text={t("homeButton")} />
           <h1 className={styles.title}>{t("card2")}</h1>
           <h3>
             {t('groupMain')}

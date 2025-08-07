@@ -136,6 +136,8 @@ i18n
 
           top: "Вгору",
 
+          homeButton: "Головна",
+
           individualMainText:
             "Бажаєте легко вивчати японську та впевнено інтегруватися в японське суспільство?",
           individualMainText2: "Я тут, щоб допомогти!",
@@ -402,6 +404,8 @@ i18n
 
           top: "TOP",
 
+           homeButton: "Home",
+
           individualMainText:
             "Would you like to study Japanese with ease and integrate into Japanese society smoothlyand confidently?",
           individualMainText2: "I’m here to help!",
@@ -659,6 +663,8 @@ i18n
 
           top: "PAGETOP",
 
+           homeButton: "ホーム",
+
           individualMainText:
             "「英語を楽に学び、自信を持って、学習、仕事、人間関係構築といったあらゆる目標のために英 語を使いこなしたい。」そうお考えではありませんか？",
           individualMainText2: "私が皆様をサポートします！",
@@ -915,6 +921,8 @@ i18n
           send: "Відправити",
 
           top: "Вверх",
+
+          homeButton: "Главная",
 
           individualMainText:
             "Хотите легко изучать японский и уверенно интегрироваться в японское общество?",
