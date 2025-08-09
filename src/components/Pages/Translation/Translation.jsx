@@ -9,7 +9,7 @@ import { MdMarkEmailRead } from "react-icons/md";
 import { MdCastForEducation } from "react-icons/md";
 import { CgWebsite } from "react-icons/cg";
 import { FaVideo } from "react-icons/fa";
-import ease from "../../../assets/images/ease.jpg";
+import irina from "../../../assets/images/irina.png";
 import { Trans, useTranslation } from "react-i18next";
 
 const Translation = () => {
@@ -116,7 +116,7 @@ const Translation = () => {
             <h2 className={styles.title}>{t("translationText6")}</h2>
             <div>
               <p>{t("translationText7")}</p>
-              <img src={ease} alt="girl learns from books" />
+              <img src={irina} alt="photo irina" />
             </div>
           </div>
         </section>
