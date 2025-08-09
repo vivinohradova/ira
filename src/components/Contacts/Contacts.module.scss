@@ -41,7 +41,7 @@
         .social_media {
           a {
             svg {
-              font-size: $fz28;
+              font-size: $fzH2;
               padding: 5px 10px;
               margin: 30px 7px;
               animation: animate 4s linear infinite;
@@ -86,6 +86,16 @@
       .c_container {
         .social {
           margin-top: $MText;
+
+          .social_media {
+
+            a {
+              svg {
+                font-size: $fz28;
+                 margin: 30px 4px;
+              }
+            }
+          }
         }
       }
     }
