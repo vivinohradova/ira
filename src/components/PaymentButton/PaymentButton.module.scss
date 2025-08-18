@@ -1,4 +1,25 @@
+@import "../../assets/scss/Colors.module.scss";
+@import "../../assets/scss/Fonts.module.scss";
+
 .button {
-   max-width: 300px;
-   min-width: 150px;
+  max-width: 200px;
+  min-width: 100px;
+  border: none;
+  max-height: 50px;
+
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    -8px -1px 2px -4px rgba(0, 0, 0, 0);
+  background: rgb(252, 113, 63);
+
+  border-radius: 20px;
+  padding: 10px;
+  color: $Shadow;
+  font-weight: bold;
+  font-size: $fz20;
+  transition: all ease 1s;
+
+  &:hover {
+    scale: 1.1;
+    cursor: pointer;
+  }
 }

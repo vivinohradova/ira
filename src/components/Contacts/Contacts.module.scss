@@ -39,6 +39,9 @@
         }
 
         .social_media {
+          display: flex;
+          align-items: center;
+
           a {
             svg {
               font-size: $fzH2;
