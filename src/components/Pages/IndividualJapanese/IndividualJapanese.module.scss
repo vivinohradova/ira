@@ -19,6 +19,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
       }
 
       .title {
@@ -235,6 +236,7 @@
         
       .buttons {
         flex-direction: column;
+        height: 130px;
       }
       }
     }
