@@ -6,6 +6,7 @@ import { IoBulbOutline } from "react-icons/io5";
 import ButtonMore from "../../ButtonMore/ButtonMore";
 import WhatsAppButton from "../../WhatsAppButton/WhatsAppButton";
 import { useTranslation } from "react-i18next";
+import PaymentButton from "../../PaymentButton/PaymentButton";
 
 const IndividualJapanese = () => {
   const { i18n, t } = useTranslation();
@@ -16,7 +17,10 @@ const IndividualJapanese = () => {
       <div id="main" className={styles.page}>
         <section className={styles.headline}>
           <div className={styles.container}>
-            <ButtonMore link={"/"} text={t("homeButton")} />
+            <nav className={styles.buttons}>
+              <ButtonMore link={"/"} text={t("homeButton")} />
+              <PaymentButton />
+            </nav>
             <h1 className={styles.title}>{t("card1")}</h1>
             <div className={styles.wrap}>
               <h3>{t("individualMainText")}</h3>
@@ -162,7 +166,10 @@ const IndividualJapanese = () => {
               {t("individualText12")}
             </h3>
             <p>{t("individualText13")}</p>
-            <WhatsAppButton text={t("individualButton")} />
+            <div className={styles.buttons}>
+              <WhatsAppButton text={t("individualButton")} />
+              <PaymentButton />
+            </div>
           </div>
         </section>
       </div>

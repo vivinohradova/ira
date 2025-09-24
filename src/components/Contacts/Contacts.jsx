@@ -1,9 +1,10 @@
 // import Form from "../Form/Form";
 import styles from "./Contacts.module.scss";
-import { FaFacebook, FaInstagramSquare, FaTelegram } from "react-icons/fa";
+import { FaFacebook, FaInstagramSquare } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 import { BsTelegram } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
+import PaymentButton from "../PaymentButton/PaymentButton";
 
 const Contacts = () => {
   const { t } = useTranslation();
@@ -50,6 +51,7 @@ const Contacts = () => {
                   <IoLogoYoutube className={styles.youtube} />
                 </a>
               </div>
+               <PaymentButton />
             </div>
             {/* <Form /> */}
           </div>

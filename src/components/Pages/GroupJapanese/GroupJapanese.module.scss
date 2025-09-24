@@ -12,6 +12,13 @@
       display: flex;
       flex-direction: column;
 
+      .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
       .title {
         font-size: $fz46;
         text-align: center;
@@ -124,31 +131,57 @@
     .container {
       @include container;
       display: flex;
+      flex-direction: column;
       align-items: center;
 
-      .companies,
-      .individual {
+      .wrapp {
         display: flex;
-        min-height: 400px;
-        padding: 2% 0;
+        align-items: baseline;
+        justify-content: space-between;
 
-        h2 {
-          text-align: left;
-        }
-        p {
-          font-size: $fz20;
+        .companies,
+        .individual {
+          display: flex;
+          flex-direction: column;
+          min-height: 200px;
+          padding: 2% 0;
+
+          div {
+            display: flex;
+            align-items: center;
+
+            h2 {
+              text-align: left;
+            }
+          }
+
+          p {
+            font-size: $fz20;
+          }
+
+          .iconGroup,
+          .iconBook {
+            min-width: 90px;
+            min-height: 90px;
+            font-size: $fzH2;
+            border: 4px solid $MainColor;
+            border-radius: 50%;
+            color: $MainColor;
+            margin: 4%;
+          }
         }
 
-        .iconGroup,
-        .iconBook {
-          min-width: 100px;
-          min-height: 100px;
-          font-size: $fz46;
-          border: 4px solid $MainColor;
-          border-radius: 50%;
-          color: $MainColor;
-          margin: 4%;
+        .individual {
+          padding-left: 15px;
+
+          div {
+            justify-content: end;
+          }
         }
+      }
+
+      .buttons {
+        margin: 30px 0;
       }
     }
   }
@@ -164,7 +197,7 @@
           flex-direction: column;
           align-items: center;
 
-          img{
+          img {
             max-width: 300px;
           }
         }
@@ -201,26 +234,30 @@
 
     .prefer {
       .container {
-        flex-direction: column;
         padding: $PaddingMobile;
 
-        .companies,
-        .individual {
-          padding: 6% 0 0 0;
+        .wrapp {
+          flex-direction: column;
 
-          h2 {
-            padding: 0;
-          }
+          .companies,
+          .individual {
+            padding: 6% 0 0 0;
 
-          p {
-            padding-top: 6%;
-          }
+            h2 {
+              font-size: $fz30;
+              padding: 0;
+            }
 
-          .iconGroup,
-          .iconBook {
-            min-width: 50px;
-            min-height: 50px;
-            font-size: $fz30;
+            p {
+              padding-top: 6%;
+            }
+
+            .iconGroup,
+            .iconBook {
+              min-width: 50px;
+              min-height: 50px;
+              font-size: $fz30;
+            }
           }
         }
       }
@@ -234,6 +271,7 @@
     .headline {
       .container {
         padding: $PaddingTablet;
+
         .levelWrapp {
           flex-direction: column;
           align-items: center;
@@ -263,26 +301,35 @@
 
     .prefer {
       .container {
-        flex-direction: column;
         padding: $PaddingTablet;
 
-        .companies,
-        .individual {
-          padding: 6% 0 0 0;
+        .wrapp {
+          flex-direction: column;
 
-          h2 {
-            padding: 0;
+          .companies,
+          .individual {
+            padding: 6% 0 0 0;
+
+            h2 {
+              padding: 0;
+            }
+
+            p {
+              padding-top: 6%;
+            }
+
+            .iconGroup,
+            .iconBook {
+              min-width: 50px;
+              min-height: 50px;
+              font-size: $fz30;
+            }
           }
 
-          p {
-            padding-top: 6%;
-          }
-
-          .iconGroup,
-          .iconBook {
-            min-width: 50px;
-            min-height: 50px;
-            font-size: $fz30;
+          .individual {
+            div {
+              justify-content: left;
+            }
           }
         }
       }

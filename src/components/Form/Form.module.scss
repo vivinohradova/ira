@@ -1,95 +1,95 @@
-@import "../../assets/scss/Colors.module.scss";
-@import "../../assets/scss/Fonts.module.scss";
+// @import "../../assets/scss/Colors.module.scss";
+// @import "../../assets/scss/Fonts.module.scss";
 
-.form_container {
-  display: flex;
-  flex-direction: column;
+// .form_container {
+//   display: flex;
+//   flex-direction: column;
 
-  .input {
-    border: 1px solid $Grey;
-    padding: 20px;
-    width: 300px;
-    margin-bottom: 20px;
-    background-color: $Background;
+//   .input {
+//     border: 1px solid $Grey;
+//     padding: 20px;
+//     width: 300px;
+//     margin-bottom: 20px;
+//     background-color: $Background;
 
-    &:focus {
-      outline: none;
-      background-color: $Background;
-    }
+//     &:focus {
+//       outline: none;
+//       background-color: $Background;
+//     }
 
-    &:-webkit-autofill {
-      -webkit-box-shadow: 0 0 0 40px $Background inset;
-    }
-  }
+//     &:-webkit-autofill {
+//       -webkit-box-shadow: 0 0 0 40px $Background inset;
+//     }
+//   }
 
-  .country {
-    border: 1px solid $Grey;
-    padding: 20px;
-    width: 300px;
-    margin-bottom: 20px;
-    input {
-      border: none;
-      &:-webkit-autofill {
-        -webkit-box-shadow: 0 0 0 40px $Background inset;
-      }
-      &:focus {
-        outline: none;
-        background-color: $Background;
-      }
-    }
-  }
+//   .country {
+//     border: 1px solid $Grey;
+//     padding: 20px;
+//     width: 300px;
+//     margin-bottom: 20px;
+//     input {
+//       border: none;
+//       &:-webkit-autofill {
+//         -webkit-box-shadow: 0 0 0 40px $Background inset;
+//       }
+//       &:focus {
+//         outline: none;
+//         background-color: $Background;
+//       }
+//     }
+//   }
 
-  textarea {
-    padding: 10px;
-    margin-bottom: 20px;
-    height: 120px;
-    border: 1px solid $Grey;
+//   textarea {
+//     padding: 10px;
+//     margin-bottom: 20px;
+//     height: 120px;
+//     border: 1px solid $Grey;
 
-    &:focus {
-      outline: none;
-    }
-  }
+//     &:focus {
+//       outline: none;
+//     }
+//   }
 
-  .button {
-    width: 40%;
-    padding: 10px;
-    background-color: $Submit;
-    font-weight: $Bold;
-    color: $Background;
-    border: none;
-    box-shadow: 0px 4px 15px -2px $Grey;
-    transition: all 0.3s ease;
-    margin-bottom: 10px;
-    border-radius: 15px;
+//   .button {
+//     width: 40%;
+//     padding: 10px;
+//     background-color: $Submit;
+//     font-weight: $Bold;
+//     color: $Background;
+//     border: none;
+//     box-shadow: 0px 4px 15px -2px $Grey;
+//     transition: all 0.3s ease;
+//     margin-bottom: 10px;
+//     border-radius: 15px;
 
-    &:hover {
-      background-color: $SubmitHover;
-      cursor: pointer;
-    }
-    &:active {
-      background-color: $ActiveColor;
-    }
+//     &:hover {
+//       background-color: $SubmitHover;
+//       cursor: pointer;
+//     }
+//     &:active {
+//       background-color: $ActiveColor;
+//     }
 
-    &:disabled {
-      background-color: $DisabledColor;
-      color: $DisabledTextColor;
-      cursor: not-allowed;
-    }
-  }
+//     &:disabled {
+//       background-color: $DisabledColor;
+//       color: $DisabledTextColor;
+//       cursor: not-allowed;
+//     }
+//   }
 
-  .errorMessage,
-  .successMessage {
-    color: $Error;
-    margin-bottom: 20px;
-    margin-top: -20px;
-  }
-  .successMessage {
-    color: $Success;
-  }
+//   .errorMessage,
+//   .successMessage {
+//     color: $Error;
+//     margin-bottom: 20px;
+//     margin-top: -20px;
+//   }
+//   .successMessage {
+//     color: $Success;
+//   }
 
-  .agreeText {
-    font-size: $SmallSize;
-    width: 350px;
-    margin-bottom: 20px;
-  }
-}
+//   .agreeText {
+//     font-size: $SmallSize;
+//     width: 350px;
+//     margin-bottom: 20px;
+//   }
+// }

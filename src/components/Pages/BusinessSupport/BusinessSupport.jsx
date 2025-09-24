@@ -9,6 +9,7 @@ import { TbCloudDataConnection } from "react-icons/tb";
 import { FaNetworkWired } from "react-icons/fa";
 import WhatsAppButton from "../../WhatsAppButton/WhatsAppButton";
 import { useTranslation } from "react-i18next";
+import PaymentButton from "../../PaymentButton/PaymentButton";
 
 const BusinessSupport = () => {
   const { t } = useTranslation();
@@ -18,7 +19,10 @@ const BusinessSupport = () => {
     <div id="main" className={styles.page}>
       <section className={styles.headline}>
         <div className={styles.container}>
-          <ButtonMore link={"/"} text={t("homeButton")} />
+          <nav className={styles.buttons}>
+            <ButtonMore link={"/"} text={t("homeButton")} />
+            <PaymentButton />
+          </nav>
           <h1 className={styles.title}>{t("card3")}</h1>
           <h2>{t("businessMain")}</h2>
           <p>{t("businessMain2")}</p>
@@ -75,6 +79,9 @@ const BusinessSupport = () => {
       <section className={styles.call}>
         <div className={styles.container}>
           <h2>{t("businessText4")}</h2>
+          <div className={styles.buttons}>
+            <PaymentButton />
+          </div>
         </div>
       </section>
     </div>

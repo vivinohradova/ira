@@ -12,6 +12,7 @@ import { FaGrinHearts } from "react-icons/fa";
 import { RiGroup2Fill } from "react-icons/ri";
 import { GiOpenBook } from "react-icons/gi";
 import { Trans, useTranslation } from "react-i18next";
+import PaymentButton from "../../PaymentButton/PaymentButton";
 
 const GroupJapanese = () => {
   const { t } = useTranslation();
@@ -20,15 +21,16 @@ const GroupJapanese = () => {
     <div id="main" className={styles.page}>
       <section className={styles.headline}>
         <div className={styles.container}>
-         <ButtonMore link={"/"} text={t("homeButton")} />
+          <nav className={styles.buttons}>
+            <ButtonMore link={"/"} text={t("homeButton")} />
+            <PaymentButton />
+          </nav>
           <h1 className={styles.title}>{t("card2")}</h1>
-          <h3>
-            {t('groupMain')}
-          </h3>
+          <h3>{t("groupMain")}</h3>
           <div className={styles.levelWrapp}>
             <img src={learn3} alt="Girl learning" />
             <ul className={styles.level}>
-             {t('groupLevelText')}
+              {t("groupLevelText")}
               <li>
                 <FaGrin className={styles.icon} />
                 <Trans i18nKey="groupLevel.item1" />
@@ -50,15 +52,11 @@ const GroupJapanese = () => {
         <div className={styles.container}>
           <div className={styles.right}>
             <img className={styles.image} src={globus} alt="Globe" />
-            <h3>
-              {t('groupText1')}
-            </h3>
+            <h3>{t("groupText1")}</h3>
           </div>
           <div className={styles.left}>
             <img className={styles.image} src={man} alt="Learning man" />
-            <h3>
-              {t('groupText2')}
-            </h3>
+            <h3>{t("groupText2")}</h3>
           </div>
           <div className={styles.right}>
             <img
@@ -66,52 +64,47 @@ const GroupJapanese = () => {
               src={atmosphera}
               alt="cozy atmosphere with coffee"
             />
-            <h3>
-              {t('groupText3')}
-            </h3>
+            <h3>{t("groupText3")}</h3>
           </div>
           <div className={styles.left}>
             <img className={styles.image} src={girl} alt="Learning girl" />
-            <h3>
-              {t('groupText4')}
-            </h3>
+            <h3>{t("groupText4")}</h3>
           </div>
         </div>
       </section>
 
       <section className={styles.offer}>
         <div className={styles.container}>
-          <h2>{t('groupText5')}</h2>
-          <p>
-            {t('groupText6')}
-          </p>
+          <h2>{t("groupText5")}</h2>
+          <p>{t("groupText6")}</p>
           <img src={learn2} alt="Learning" />
         </div>
       </section>
 
       <section className={styles.prefer}>
         <div className={styles.container}>
-          <div className={styles.companies}>
-            <RiGroup2Fill className={styles.iconGroup} />
-            <div>
-              <h2>{t('groupText7')}</h2>
-              <p>
-                {t('groupText8')}
-              </p>
-              <p>
-               {t('groupText9')}
-              </p>
+          <div className={styles.wrapp}>
+            <div className={styles.companies}>
+              <div>
+               
+                <RiGroup2Fill className={styles.iconGroup} />
+                <h2>{t("groupText7")}</h2>
+              </div>
+              <p>{t("groupText8")}</p>
+              <p>{t("groupText9")}</p>
+            </div>
+
+            <div className={styles.individual}>
+              <div>
+               
+                <GiOpenBook className={styles.iconBook} />
+                <h2>{t("groupText10")}</h2>
+              </div>
+              <p>{t("groupText11")}</p>
             </div>
           </div>
-
-          <div className={styles.individual}>
-            <GiOpenBook className={styles.iconBook} />
-            <div>
-              <h2>{t('groupText10')}</h2>
-              <p>
-               {t('groupText11')}
-              </p>
-            </div>
+          <div className={styles.buttons}>
+            <PaymentButton />
           </div>
         </div>
       </section>
