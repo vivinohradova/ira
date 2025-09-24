@@ -16,6 +16,7 @@ import Translation from "./components/Pages/Translation/Translation";
 import ScrollToTop from "./components/ScrollToTop";
 import { Helmet } from 'react-helmet-async';
 import Success from "./components/Success/Success";
+import Cancel from "./components/Cancel/Cancel";
 
 function App() {
   const { t, i18n, ready } = useTranslation();
@@ -58,7 +59,8 @@ function App() {
                 element={<IndividualJapanese />}
               />
               <Route path="/Translation" element={<Translation />} />
-              <Route path="/success" element={<Success />} />
+              <Route path="/ira/success" element={<Success />} />
+              <Route path="/ira/cancel" element={<Cancel />} />
             </Routes>
             <Footer />
           </div>
