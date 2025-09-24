@@ -5,7 +5,7 @@ const Cancel = () => {
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1>Оплата не завершена ❌</h1>
       <p>Вы отменили оплату.</p>
-       <ButtonMore text={"Home"} link={'http://localhost:3000/ira'}/>
+       <ButtonMore text={"Home"} link={"https://vivinohradova.github.io/ira"}/>
     </div>
   );
 };
