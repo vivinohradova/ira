@@ -40,7 +40,6 @@ const AboutMe = () => {
             </figure>
 
             <figure>
-              {/* <img className={styles.image} src={irina3} alt="my" /> */}
               <Trans i18nKey={"aboutMe2"}>
                 <figcaption className={styles.aboutMe2}>
                   <p>
@@ -62,10 +61,20 @@ const AboutMe = () => {
               </Trans>
             </figure>
             <div className={styles.video}>
-              <iframe
+              <iframe className={styles.video1}
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/WsWHPAazJX8?si=XBnzTStyNianBI3y"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+              <iframe className={styles.video2}
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/57KqmyKy0FU?si=GEoZz9Fq_azfIcFk"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

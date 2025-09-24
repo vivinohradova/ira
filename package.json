@@ -4,9 +4,14 @@
   "private": true,
   "homepage": "https://vivinohradova.github.io/ira",
   "dependencies": {
+    "@stripe/react-stripe-js": "^3.9.1",
+    "@stripe/stripe-js": "^7.8.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
     "i18next": "^23.8.2",
     "i18next-browser-languagedetector": "^7.2.0",
     "i18next-http-backend": "^2.4.3",
@@ -21,6 +26,7 @@
     "react-router-dom": "^7.6.2",
     "react-scripts": "5.0.1",
     "sass": "^1.69.7",
+    "stripe": "^18.4.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
