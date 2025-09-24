@@ -10,4 +10,4 @@ const Cancel = () => {
   );
 };
 
-<Route path="/cancel" element={<Cancel />} />
+export default Cancel;
