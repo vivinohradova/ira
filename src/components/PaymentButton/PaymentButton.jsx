@@ -4,7 +4,7 @@ import styles from "./PaymentButton.module.scss";
 import { useTranslation } from "react-i18next";
 
 const stripePromise = loadStripe(
-  "pk_test_51RoNsYE0lOutOPcCerxC4fjef64TlLYAIhPXGpNm74DOCfgQmgZOYSF2vO2tZOydFsnYoThNHl457Dl9r4yS1F4C00h5wQv9aW"
+  "pk_live_51RztGWAyox1MWNBWK3wvBt0N5HdnxedwRwtqryZSLOp4p1OPdOf9AOyRY7XMT34EQdEp3rufHtMm8dCQ9TBGSvjc00W0HsvRBt"
 ); // твой публичный ключ
 
 const PaymentButton = () => {

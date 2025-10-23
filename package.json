@@ -2,7 +2,7 @@
   "name": "translator-irina",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vivinohradova.github.io/ira",
+  "homepage": "https://japanesewithiryna.com",
   "dependencies": {
     "@stripe/react-stripe-js": "^3.9.1",
     "@stripe/stripe-js": "^7.8.0",
