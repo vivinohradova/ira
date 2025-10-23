@@ -11,7 +11,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <Router basename="/ira">
+    <Router>
       <React.Suspense fallback={<div>Loading...</div>}>
         <HelmetProvider>
           <App />
