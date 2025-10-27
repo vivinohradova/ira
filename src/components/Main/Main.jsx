@@ -4,7 +4,7 @@ import { useState } from "react";
 import scrollToElement from "../ScrollUtils/ScrollUtils";
 import { GiHamburgerMenu } from "react-icons/gi";
 import WhatsAppButton from "../WhatsAppButton/WhatsAppButton";
-import PaymentButton from "../PaymentButton/PaymentButton";
+// import PaymentButton from "../PaymentButton/PaymentButton";
 
 const Main = () => {
   const { t } = useTranslation();
@@ -50,7 +50,7 @@ const Main = () => {
                 </a>
               </li>
             </nav>
-            <PaymentButton />
+            {/* <PaymentButton /> */}
           </div>
 
           <div className={styles.mobile}>

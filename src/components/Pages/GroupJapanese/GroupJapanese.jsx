@@ -12,7 +12,7 @@ import { FaGrinHearts } from "react-icons/fa";
 import { RiGroup2Fill } from "react-icons/ri";
 import { GiOpenBook } from "react-icons/gi";
 import { Trans, useTranslation } from "react-i18next";
-import PaymentButton from "../../PaymentButton/PaymentButton";
+// import PaymentButton from "../../PaymentButton/PaymentButton";
 
 const GroupJapanese = () => {
   const { t } = useTranslation();
@@ -23,7 +23,7 @@ const GroupJapanese = () => {
         <div className={styles.container}>
           <nav className={styles.buttons}>
             <ButtonMore link={"/"} text={t("homeButton")} />
-            <PaymentButton />
+            {/* <PaymentButton /> */}
           </nav>
           <h1 className={styles.title}>{t("card2")}</h1>
           <h3>{t("groupMain")}</h3>
@@ -104,7 +104,7 @@ const GroupJapanese = () => {
             </div>
           </div>
           <div className={styles.buttons}>
-            <PaymentButton />
+            {/* <PaymentButton /> */}
           </div>
         </div>
       </section>

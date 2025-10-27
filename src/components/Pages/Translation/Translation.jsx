@@ -11,7 +11,7 @@ import { CgWebsite } from "react-icons/cg";
 import { FaVideo } from "react-icons/fa";
 import irina from "../../../assets/images/irina.png";
 import { Trans, useTranslation } from "react-i18next";
-import PaymentButton from "../../PaymentButton/PaymentButton";
+// import PaymentButton from "../../PaymentButton/PaymentButton";
 
 const Translation = () => {
   const { t } = useTranslation();
@@ -23,7 +23,7 @@ const Translation = () => {
           <div className={styles.container}>
            <nav className={styles.buttons}>
               <ButtonMore link={"/"} text={t("homeButton")} />
-              <PaymentButton />
+              {/* <PaymentButton /> */}
             </nav>
             <h2 className={styles.title}>{t("translationMain")}</h2>
             <p className={styles.text}>{t("translationText")}</p>
@@ -128,7 +128,7 @@ const Translation = () => {
           <div className={styles.container}>
             <h2>{t("translationText8")}</h2>
              <div className={styles.buttons}>
-            <PaymentButton />
+            {/* <PaymentButton /> */}
           </div>
           </div>
         </section>
